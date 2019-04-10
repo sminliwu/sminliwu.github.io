@@ -1,1 +1,32 @@
-theme: jekyll-theme-minimal
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Shanel Shall
+tagline:             Doing a lot of stuff.
+url:                 http://sminliwu.github.io
+baseurl:             
+analytics_id:
+
+# Owner/author information
+owner:
+  name:           Shanel Wu
+  bio:            "Smart textiles."
+  email:          shanel.wu@colorado.edu
+  github:         sminliwu
+  instagram:      pipernell
+  location:       "Boulder, CO"
+
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              
+
+# Pagination
+ paginate: 5
+ paginate_path: "blog/page:num"
+
+# Gems
+plugins:
+  - jekyll-paginate
