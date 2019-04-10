@@ -1,10 +1,6 @@
 # Setup
-title:               Shanel Shall
-tagline:             Doing a lot of stuff.
-url:                 http://sminliwu.github.io
-baseurl:             /
-analytics_id:
-theme:               minimal
+title: Shanel Shall
+theme: minimal
 
 # Owner/author information
 owner:
