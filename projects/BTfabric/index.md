@@ -104,7 +104,7 @@ The Bluetooth SPP profile is used to replace a wired serial TTL (transistor-tran
 The Bluetooth HID profile is, in fact, a wrapper to the USB HID profile. The HID device interprets input commands as ASCII characters and translates them into packets of bytes, or HID reports. The host receives the reports and converts them to the appropriate output. In the case of keyboards, the information often starts and ends as ASCII, so a string sent by the Arduino via the RN-42 will show up exactly the same on the other end.
 
 ## Other Resources
-* [Set-up tutorial for RN-42 modules from Sparkfun] (https://learn.sparkfun.com/tutorials/using-the-bluesmirf/all)
+* [Set-up tutorial for RN-42 modules from Sparkfun](https://learn.sparkfun.com/tutorials/using-the-bluesmirf/all)
 * [RN-42 user's guide](https://cdn.sparkfun.com/datasheets/Wireless/Bluetooth/bluetooth_cr_UG-v1.0r.pdf)
 * [Bluetooth HID user's guide by RN](https://cdn.sparkfun.com/datasheets/Wireless/Bluetooth/RN-HID-User-Guide-v1.0r.pdf)
 * [USB Explained](https://www.amazon.com/USB-Explained-Steven-McDowell/dp/013081153X) by McDowell & Seyer, a reference book for the specifics of USB connectivity and several other communication standards

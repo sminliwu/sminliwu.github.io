@@ -2,7 +2,7 @@
 
 ## Projects
 
-[Bluetooth-Fabric Controller](/projects/BTfabric/BTfabric)
+[Bluetooth-Fabric Controller](/projects/BTfabric)
 
 ## Blog Posts
 
