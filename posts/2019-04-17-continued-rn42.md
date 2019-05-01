@@ -1,5 +1,6 @@
 ---
 title: Continued RN-42 tinkering
+author: Shanel
 layout: post
 date: 2019-04-17 16:17:11
 ---
