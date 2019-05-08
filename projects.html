@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<h1>Projects</h1>
+
+<ul>
+	{% for project in site.projects %}
+	<h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+	{% endfor %}
+</ul>

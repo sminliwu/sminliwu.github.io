@@ -1,12 +1,12 @@
-## Welcome to GitHub Pages
+## Welcome to an ongoing experiment
 
-You can use the [editor on GitHub](https://github.com/sminliwu/sminliwu.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I can use the [editor on GitHub](https://github.com/sminliwu/sminliwu.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files, apparently.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Whenever I commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in my Markdown files.
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Markdown is a lightweight and easy-to-use syntax for styling writing. IT IS MAGIC. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
@@ -30,7 +30,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sminliwu/sminliwu.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+I am l33t
 
 ### Support or Contact
 
