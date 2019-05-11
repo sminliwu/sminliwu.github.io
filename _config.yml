@@ -1,10 +1,20 @@
-# theme: jekyll-theme-minimal
+# Set up
 title: Shanel Shall
-description: Smart textiles
+logo: /assets/img/logo.png
+description: "PhD student: smart textiles, weaving, computational craft, hardware hacking."
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
 
+# Owner/author information
+owner:
+  name:           Shanel Wu
+  bio:            "PhD student: smart textiles, weaving, computational craft, hardware hacking."
+  email:          shanel.wu@colorado.edu
+  twitter:        sminliwu
+  github:         sminliwu
+  instagram:      pipernell
+  location:       "Boulder, CO"
+
 collections:
-  projects:
-    output: true
+  
