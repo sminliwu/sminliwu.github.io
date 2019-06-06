@@ -4,7 +4,7 @@ layout: default
 <h1>Projects</h1>
 
 <ul>
-	{% for project in site.projects %}
-	<h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+	{% for project in site.data.projects %}
+	<h2><a href="{{ project.link }}">{{ project.name }}</a></h2>
 	{% endfor %}
 </ul>
