@@ -7,7 +7,7 @@ title: Home
 
 ## Projects
 
-[Bluetooth-Fabric Controller (KEYBOARD)](/projects/BTfabric)
+[Bluetooth-Fabric Controller](/projects/BTfabric)
 
 [E-Textiles Web Multimeter](/projects/ETextileMultimeter)
 
