@@ -3,11 +3,8 @@ layout: default
 title: Projects
 ---
 <h1>Projects</h1>
-
 	{% for item in site.data.projects %}
-
-    <p><a href="{{ item.link }}">
-      {{ item.name }}
-    </a></p>
- 	
+	    <p><a href="{{ item.link }}">
+      		{{ item.name }}
+    	</a></p>
  	{% endfor %}
