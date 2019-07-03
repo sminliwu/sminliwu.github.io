@@ -5,6 +5,7 @@ _site
 .ruby-version
 Gemfile.lock
 *.gem
+*.gemspec
 
 # OS or Editor folders
 .DS_Store
@@ -19,3 +20,4 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 .idea
+script

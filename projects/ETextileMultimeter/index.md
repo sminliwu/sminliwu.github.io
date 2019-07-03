@@ -5,6 +5,8 @@ title: E-Textiles Web Multimeter
 
 # {{ page.title }}
 
+Spring 2019
+
 ## [Visualization Web App](/projects/ETextileMultimeter/main)
 
 ![The e-textile multimeter and visualizer in use](./documentation/cover.jpg)

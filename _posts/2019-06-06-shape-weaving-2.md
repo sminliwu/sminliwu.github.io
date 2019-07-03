@@ -3,6 +3,7 @@ title: Shape Weaving Experiment 2
 author: Shanel
 layout: post
 date: 2019-06-06 17:05:08
+tags: weaving loom-pin project-unfabricate
 ---
 
 ![Woven square with a tightened continuous warp](/assets/img/shapeweaving2_square.jpg)

@@ -5,6 +5,8 @@ title: Bluetooth-Fabric Controller
 
 # {{ page.title }}
 
+Spring 2019
+
 ## Concept
 
 ![drawing of a stuffed animal being pressed like a button and a smartphone connected to it. Text: "I think this is a keyboard!](./documentation/conceptsketch.jpg)

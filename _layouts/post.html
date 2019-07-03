@@ -10,5 +10,14 @@ layout: default
 {{content}}
 
 {% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+  <small>tags: <em>{{ page.tags | join: "</em> | <em>" }}</em></small>
+
+<span class="post-tags"><small>
+    [&nbsp;
+    {% for tag in page.tags %}
+      {% capture tag_name %}{{ tag }}{% endcapture %}
+      <a class="no-underline" href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>    
+    {% endfor %}
+    ]
+  </small></span>
 {% endif %}
