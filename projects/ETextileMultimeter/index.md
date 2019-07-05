@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: project
 title: E-Textiles Web Multimeter
 ---
-
-# {{ page.title }}
 
 Spring 2019
 

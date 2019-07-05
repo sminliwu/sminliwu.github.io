@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: project
 title: Bluetooth-Fabric Controller
 ---
-
-# {{ page.title }}
 
 Spring 2019
 

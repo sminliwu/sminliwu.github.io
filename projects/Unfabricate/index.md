@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: project
 title: Unfabricate
 ---
-
-# {{ page.title }}
 
 Spring / Summer 2019
 

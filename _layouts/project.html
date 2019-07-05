@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+{{content}}
+
+<hr>
+<h2>Associated Blog Posts: </h2>
+<ul>
+{% capture project-tag %}{{ page.dir | remove: "/projects/" | remove: "/" | prepend: "project-" | downcase }}{% endcapture %}
+{% for post in site.tags[project-tag] %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})
+  </li>
+{% endfor %}
+</ul>
