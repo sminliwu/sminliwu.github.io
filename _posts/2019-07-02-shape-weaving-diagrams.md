@@ -6,13 +6,13 @@ date: 2019-07-02 16:30:45
 tags: weaving project-unfabricate
 ---
 
-![Diagrams of 3 shape weaving experiments' warp systems](/assets/img/diagrams)
+![Diagrams of 3 shape weaving experiments' warp systems](/assets/img/diagrams.png)
 
 Summarizing my three experiments in shape weaving with diagrams of their warp systems. Detailing the methods with weaving/design tactics used before (warping), during (weaving), and after (securement).
 
 ## Experiment 1: Knotted Pairs
 
-![Diagram of shape weaving experiment 1](/assets/img/diagram1)
+![Diagram of shape weaving experiment 1](/assets/img/diagram1.png)
 
 Before: warp an even number, enough room to create the shape
 
@@ -22,7 +22,7 @@ After: cut warps, leaving at least 2" ends; use square knots to tie each pair se
 
 ## Experiment 2: Tightened Continuous Warp
 
-![Diagram of shape weaving experiment 2](/assets/img/diagram2)
+![Diagram of shape weaving experiment 2](/assets/img/diagram2.png)
 
 Before: warp enough room to create the shape
 
@@ -32,7 +32,7 @@ After: do not cut warps; remove from loom and tighten warp looms against weft on
 
 ## Experiment 3: Tightened Continuous Paired Warp
 
-![Diagram of shape weaving experiment 3](/assets/img/diagram3)
+![Diagram of shape weaving experiment 3](/assets/img/diagram3.png)
 
 Before: warp an even number, enough room to create the shape; the warp should start and end on the front/bottom of the loom
 
