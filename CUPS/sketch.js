@@ -2,6 +2,10 @@
  * Web app to visualize inputs from Arduinos configured as USB mice and keyboards.
  *
  */
+/**
+ * Web app to visualize inputs from Arduinos configured as USB mice and keyboards.
+ *
+ */
 
 var fillCol = 0;
 var pressure = 0;
@@ -33,12 +37,12 @@ function setGradient(x, y, w, h, c1, c2, axis) {
 }
 
 function setup() {
-	// visual parameters
-  	createCanvas(windowWidth, windowHeight);
-  	noStroke();
-  	// Define colors
-  	c1 = color(255, 255, 0);
-  	c2 = color(255, 0, 0);
+  // visual parameters
+    createCanvas(windowWidth, windowHeight);
+    noStroke();
+    // Define colors
+    c1 = color(255, 255, 0);
+    c2 = color(255, 0, 0);
 
     // titles and headers
     fill(0);
@@ -50,14 +54,15 @@ function setup() {
 // analog input (pressure sense) = mouseWheel
 function mouseWheel(event) {
   console.log(event.delta); // MAKE SURE TO SCALE TO MATCH ARDUINO OUTPUT
-  fillCol += event.delta/20;
+  fillCol -= event.delta/100;
   if (fillCol > 255) {
-  	fillCol = 255;
+    fillCol = 255;
   } if (fillCol < 0) {
-  	fillCol = 0;
+    fillCol = 0;
   }
 
   pressure = fillCol/255*100;
+  console.log(pressure);
   // block default behavior, page scrolling
   return false;
 }
