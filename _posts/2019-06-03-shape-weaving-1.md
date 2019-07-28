@@ -3,7 +3,7 @@ title: Shape Weaving Experiment 1
 author: Shanel
 layout: post
 date: 2019-06-03 23:00:38
-tags: weaving loom-tapestry project-unfabricate
+tags: weaving loom-tapestry project-Unfabricate
 ---
 
 ![Woven random shape finished with knots](/assets/img/shapeweaving1.jpg)

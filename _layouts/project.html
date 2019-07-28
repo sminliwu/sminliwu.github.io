@@ -9,7 +9,7 @@ layout: default
 <hr>
 <h2>Associated Blog Posts: </h2>
 <ul>
-{% capture project-tag %}{{ page.dir | remove: "/projects/" | remove: "/" | prepend: "project-" | downcase }}{% endcapture %}
+{% capture project-tag %}{{ page.dir | remove: "/projects/" | remove: "/" | prepend: "project-" }}{% endcapture %}
 {% for post in site.tags[project-tag] %}
   <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})
   </li>

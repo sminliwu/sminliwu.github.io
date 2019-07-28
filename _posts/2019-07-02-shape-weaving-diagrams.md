@@ -3,7 +3,7 @@ title: Shape Weaving Experiment Diagrams
 author: Shanel
 layout: post
 date: 2019-07-02 16:30:45
-tags: weaving project-unfabricate
+tags: weaving project-Unfabricate
 ---
 
 ![Diagrams of 3 shape weaving experiments' warp systems](/assets/img/diagrams.png)

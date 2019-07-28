@@ -3,7 +3,7 @@ title: Shape Weaving Experiment 3
 author: Shanel
 layout: post
 date: 2019-07-02 10:50:54
-tags: weaving loom-pin project-unfabricate
+tags: weaving loom-pin project-Unfabricate
 ---
 
 ![Woven rectangle using a double continuous warp](/assets/img/shapeweaving3_1.jpg)
