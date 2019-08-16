@@ -1,7 +1,9 @@
 ---
 title: Unravelling a Shape Weaving
+author: Shanel
 layout: post
 date: 2019-07-03 15:13:35
+tags: weaving project-Unfabricate
 ---
 
 <iframe src="https://player.vimeo.com/video/346016472" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
