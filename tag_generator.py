@@ -50,9 +50,10 @@ if not os.path.exists(tag_dir):
 
 for tag in total_tags:
     if not 'project-' in tag:
-        tag_filename = tag_dir + tag + '.md'
-        f = open(tag_filename, 'a')
-        write_str = '---\nlayout: tagpage\ntitle: \"Tag: ' + tag + '\"\ntag: ' + tag + '\nrobots: noindex\n---\n'
-        f.write(write_str)
-        f.close()
+        if not 'course-' in tag:
+            tag_filename = tag_dir + tag + '.md'
+            f = open(tag_filename, 'a')
+            write_str = '---\nlayout: tagpage\ntitle: \"Tag: ' + tag + '\"\ntag: ' + tag + '\nrobots: noindex\n---\n'
+            f.write(write_str)
+            f.close()
 print("Tags generated, count", total_tags.__len__())

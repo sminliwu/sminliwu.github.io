@@ -9,7 +9,7 @@ layout: default
 <hr>
 <h1>Course Blog Posts </h1>
 <ul>
-{% capture course-tag %}{{ page.name | remove: ".md" | prepend: "course-" }}{% endcapture %}
+{% capture course-tag %}{{ page.name | remove: ".html" | prepend: "course-" }}{% endcapture %}
 {% for post in site.tags[course-tag] %}
   <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})
   </li>
