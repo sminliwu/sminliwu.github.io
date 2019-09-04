@@ -1,5 +1,5 @@
 ---
-title: Assignment 1: The Deep Dive
+title: Assignment 1 - The Deep Dive
 author: Shanel
 layout: post
 date: 2019-09-03
