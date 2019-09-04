@@ -2,7 +2,7 @@
 title: Assignment 1: The Deep Dive
 author: Shanel
 layout: post
-date: 2019-09-03 21:24:05
+date: 2019-09-03
 tags: course-CSCI5839
 ---
 
