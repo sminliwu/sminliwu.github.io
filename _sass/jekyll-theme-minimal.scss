@@ -4,13 +4,13 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
+  font: 12pt/1.5 'EB Garamond', serif;
+  color:#111;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#000;
   margin:0 0 20px;
 }
 
@@ -19,6 +19,7 @@ p, ul, ol, table, pre, dl {
 }
 
 h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
   line-height:1.1;
 }
 
@@ -35,12 +36,12 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#267CB9;
+  color:#A31F1F;
   text-decoration:none;
 }
 
 a:hover, a:focus {
-  color:#069;
+  color:#C75146;
   font-weight: bold;
 }
 
@@ -69,6 +70,7 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  font-family: 'Inconsolata', monospace;
   color:#333;
 }
 
