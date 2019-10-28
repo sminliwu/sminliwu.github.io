@@ -14,11 +14,15 @@ layout: default
     tags: &nbsp; <em>
     {% for tag in page.tags %}
       {% capture tag_name %}{{ tag }}{% endcapture %}
-      <!-- if a project tag, just link to the project page -->
+    <!-- if a project tag, just link to the project page -->
       {% if tag_name contains 'project-' %}
       	{% capture project %}{{ tag_name | remove: "project-" }}{% endcapture %}
-		<a class="no-underline" href="/projects/{{ project }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
-	<!-- most other tags, link to its own tag page -->
+		  <a class="no-underline" href="/projects/{{ project }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
+    <!-- if a course tag, link to course page -->
+      {% elsif tag_name contains 'course-' %}
+        {% capture course %}{{ tag_name | remove: "course-" }}{% endcapture %}
+      <a class="no-underline" href="/courses/{{ course }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
+	  <!-- most other tags, link to its own tag page -->
       {% else %}
 	      <a class="no-underline" href="/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
       {% endif %}
