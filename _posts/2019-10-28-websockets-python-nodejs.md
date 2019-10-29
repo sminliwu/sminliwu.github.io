@@ -6,7 +6,7 @@ date: 2019-10-28 23:40:20
 tags: course-ECEN5783 programming
 ---
 
-![Screenshot of temperature/humidity GUI accessed via HTML](/assets/img/EIDProj2.png)
+![Screenshot of temperature/humidity GUI accessed via HTML](/assets/img/EIDproj2.png)
 
 ## Installation Sources
 
