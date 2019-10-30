@@ -16,5 +16,10 @@ owner:
   instagram:      pipernell
   location:       "Boulder, CO"
 
-collections:
-  
+# collections:
+
+plugins:
+  - jekyll-paginate
+
+paginate: 8
+paginate_path: "/blog/page:num/"
