@@ -30,4 +30,6 @@ This project was built on top of the first class project, described in this [pre
 4. [JQuery Reference](https://api.jquery.com/)
 5. [`ws` (Node.js Websockets) Reference](https://github.com/websockets/ws)
 
-The biggest issue that we ran into during the project (and up through the demo) was handling the data connection and transportation over the WebSockets. With the Python Websocket server, we were able to establish the server/client connection, but weren't able to properly transmit different data payloads. The Python QT code from the previous project was already fairly long, so there were some places were we didn't insert the WebSocket code or break it out into a separate file correctly. For the Node.js WebSocket, we realized that we needed to carefully format the JSON with the MySQL data in order to have a parse-able string on the client side.
+## Issues
+
+The biggest issue that we ran into during the project (and up through the demo) was **handling the data connection and transportation over the WebSockets**. With the Python Websocket server, we were able to establish the server/client connection, but weren't able to properly transmit different data payloads. The Python QT code from the previous project was already fairly long, so there were some places were we didn't insert the WebSocket code or break it out into a separate file correctly. For the Node.js WebSocket, we realized that we needed to carefully format the JSON with the MySQL data in order to have a parse-able string on the client side.

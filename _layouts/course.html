@@ -7,9 +7,9 @@ layout: default
 {{ content }}
 
 <hr>
-<h1>Course Blog Posts </h1>
+<h2>Course Blog Posts</h2>
 
-{% capture course-tag %}{{ page.dir | remove: ".html" | remove: "/" | prepend: "course-" }}{% endcapture %}
+{% capture course-tag %}{{ page.dir | remove: "/courses/" | remove: "/" | prepend: "course-" }}{% endcapture %}
 {% for post in site.tags[course-tag] %}
   <small>{{ post.date | date_to_string }}</small>
 
