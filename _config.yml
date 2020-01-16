@@ -1,7 +1,7 @@
 # Set up
 title: Shanel Shall
 logo: #/assets/img/logo.jpg
-description: "PhD student: smart textiles, weaving, computational craft, hardware hacking."
+description: "They/them. PhD student: smart textiles, weaving, computational craft, hardware hacking."
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
@@ -9,7 +9,7 @@ theme: jekyll-theme-minimal
 # Owner/author information
 owner:
   name:           Shanel Wu
-  bio:            "PhD student: smart textiles, weaving, computational craft, hardware hacking."
+  bio:            "They/them. PhD student: smart textiles, weaving, computational craft, hardware hacking."
   email:          shanel.wu@colorado.edu
   twitter:        sminliwu
   github:         sminliwu
