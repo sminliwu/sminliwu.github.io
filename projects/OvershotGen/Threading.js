@@ -1,3 +1,107 @@
+// helper functions for byte handling
+// how many bytes are needed to hold x bits
+function numBytes(x) {
+  if (x % 8 == 0) {
+    return x/8+1;
+  } else {
+    return x/8
+  }
+}
+
+class ByteArray {
+  height;
+  width;
+
+  data; // 1D fixed-size array with size height x width
+
+  constructor(h, w) {
+    this.height = h;
+    this.width = w;
+    this.data = new Uint8Array(this.height * this.width);
+  }
+
+  // the DraftContainer is stored as a 1D array of length (draft height)  x (draft width)
+  RCToIndex(row, col) {
+    if (col >= this.height || row >= this.width) {
+      return -1;
+    }
+    return (row*this.width + col);
+  }
+
+  indexToRC(index) {
+    if (index >= this.height * this.width) {
+      return -1;
+    }
+    var row = Math.floor(index / this.width);
+    var col = index % this.height;
+    return {row, col};
+  }
+
+  // for now, each byte stores 1 cell's binary data (0 or 1)
+  getData(row, col) {
+    if (row < this.height && col < this.width) {
+      var i = this.RCToIndex(row, col);
+      return this.data[i] ? true : false;
+    }
+  }
+
+  setData(row, col, value) {
+    if (row < this.height && col < this.width) {
+      var i = this.RCToIndex(row, col);
+      this.data[i] = value ? 0 : 1;
+    }
+  }
+
+  toggleCell(row, col) {
+    this.data[i] = getData(row, col) ? 1 : 0;
+  }
+
+  addRow() {
+    this.height++;
+    var newData = new Uint8Array(this.height * this.width);
+    for (var r = 0; r < this.height-1; r++) {
+      for (var c = 0; c < this.width; c++) {
+        var i = this.RCToIndex(r, c);
+        newData[i] = this.data[i];
+      }
+    }
+    this.data = newData;
+  }
+  delRow() {
+    this.height--;
+    var newData = new Uint8Array(this.height * this.width);
+    for (var r = 0; r < this.height; r++) {
+      for (var c = 0; c < this.width; c++) {
+        var i = this.RCToIndex(r, c);
+        newData[i] = this.data[i];
+      }
+    }
+    this.data = newData;
+  }
+  addCol() {
+    this.width++;
+    var newData = new Uint8Array(this.height * this.width);
+    for (var r = 0; r < this.height; r++) {
+      for (var c = 0; c < this.width-1; c++) {
+        var i = this.RCToIndex(r, c);
+        newData[i] = this.data[i];
+      }
+    }
+    this.data = newData;
+  }
+  delCol() {
+    this.width--;
+    var newData = new Uint8Array(this.height * this.width);
+    for (var r = 0; r < this.height; r++) {
+      for (var c = 0; c < this.width; c++) {
+        var i = this.RCToIndex(r, c);
+        newData[i] = this.data[i];
+      }
+    }
+    this.data = newData;
+  }
+}
+
 // A general draft quadrant container class
 class DraftContainer {
   // declare fields
@@ -18,16 +122,20 @@ class DraftContainer {
     this.width = w;
 
     // create new 2D arrays of all false booleans
-    this.rawData = new Array(this.height);
-    this.profile = new Array(this.height);
-    for (var i = 0; i < this.height; i++) {
-      this.rawData[i] = new Array(this.width);
-      this.profile[i] = new Array(this.width);
-      for (var j = 0; j < this.width; j++) {
-        this.rawData[i][j] = false;
-        this.profile[i][j] = false;
-      }
-    }
+    // TODO: convert to typed unsigned 8-bit int (byte) arrays of fixed size
+    // TypedArray is initializd with all 0's
+    //this.rawData = new Array(this.height);
+    this.rawData = new ByteArray(this.height, this.width);
+    //this.profile = new Array(this.height);
+    this.profile = new ByteArray(this.height, this.width);
+    // for (var i = 0; i < this.height; i++) {
+    //   this.rawData[i] = new Array(this.width);
+    //   this.profile[i] = new Array(this.width);
+    //   for (var j = 0; j < this.width; j++) {
+    //     this.rawData[i][j] = false;
+    //     this.profile[i][j] = false;
+    //   }
+    // }
     this.displayData = this.rawData;
   }
 
@@ -45,35 +153,41 @@ class DraftContainer {
 
   // resizing methods, update both rawData and profileData
   addRow() {
-    this.rawData.push(new Array(this.width));
-    this.profile.push(new Array(this.width));
-    for (var i = 0; i < this.width; i++) {
-      this.rawData[this.height][i] = false;
-      this.profile[this.height][i] = false;
-    }
+    // this.rawData.push(new Array(this.width));
+    // this.profile.push(new Array(this.width));
+    // for (var i = 0; i < this.width; i++) {
+    //   this.rawData[this.height][i] = false;
+    //   this.profile[this.height][i] = false;
+    // }
+    this.rawData.addRow();
+    this.profile.addRow();
     this.height++;
   }
 
   delRow() {
-    this.rawData.pop();
-    this.profile.pop();
+    this.rawData.delRow();
+    this.profile.delRow();
     this.height--;
   }
 
   addCol() {
-    // add a new column to each row of the data arrays
-    for (var i = 0; i < this.height; i++) {
-      this.rawData[i].push(false);
-      this.profile[i].push(false);
-    }
+    // // add a new column to each row of the data arrays
+    // for (var i = 0; i < this.height; i++) {
+    //   this.rawData[i].push(false);
+    //   this.profile[i].push(false);
+    // }
+    this.rawData.addCol();
+    this.profile.addCol();
     this.width++;
   }
 
   delCol() {
-    for (var i = 0; i < this.height; i++) {
-      this.rawData[i].pop();
-      this.profile[i].pop();
-    }
+    // for (var i = 0; i < this.height; i++) {
+    //   this.rawData[i].pop();
+    //   this.profile[i].pop();
+    // }
+    this.rawData.delCol();
+    this.profile.delCol();
     this.width--;
   }
 }
@@ -150,21 +264,21 @@ class Threading extends DraftContainer {
     // update threading array
     // size 1 block: true on currentShaft
     if (size == 1) {
-      this.threading[this.currentShaft][this.threadingCount] = true;
+      this.threading.setData(this.currentShaft, this.threadingCount, true);
     }
     // size 3 block: currentShaft, nextShaft, currentShaft
     else if (size == 3) {
-      this.threading[this.currentShaft][this.threadingCount] = true;
-      this.threading[this.next(this.currentShaft)][this.threadingCount+1] = true;
-      this.threading[this.currentShaft][this.threadingCount+2] = true;
+      this.threading.setData(this.currentShaft, this.threadingCount,  true);
+      this.threading.setData(this.next(this.currentShaft), this.threadingCount+1, true);
+      this.threading.setData(this.currentShaft, this.threadingCount+2, true);
     }
     // size 5 block: current, next, current, next, current
     else if (size == 5) {
-      this.threading[this.currentShaft][this.threadingCount] = true;
-      this.threading[this.next(this.currentShaft)][this.threadingCount+1] = true;
-      this.threading[this.currentShaft][this.threadingCount+2] = true;
-      this.threading[this.next(this.currentShaft)][this.threadingCount+3] = true;
-      this.threading[this.currentShaft][this.threadingCount+4] = true;
+      this.threading.setData(this.currentShaft, this.threadingCount, true);
+      this.threading.setData(this.next(this.currentShaft), this.threadingCount+1, true);
+      this.threading.setData(this.currentShaft, this.threadingCount+2, true);
+      this.threading.setData(this.next(this.currentShaft), this.threadingCount+3, true);
+      this.threading.setData(this.currentShaft, this.threadingCount+4, true);
     }
     this.threadingCount += size;
     this.warpInputs++;
@@ -199,23 +313,23 @@ class Threading extends DraftContainer {
     if (size == 1) {
       // remove block of size 1
       for (var s = 0; s < this.shafts; s++) {
-        this.threading[s][this.threadingCount] = false;
+        this.threading.setData(s, this.threadingCount, false);
       }
     } else if (size == 3) {
       // remove block of size 3
       for (var s = 0; s < this.shafts; s++) {
-        this.threading[s][this.threadingCount] = false;
-        this.threading[s][this.threadingCount+1] = false;
-        this.threading[s][this.threadingCount+2] = false;
+        this.threading.setData(s, this.threadingCount, false);
+        this.threading.setData(s, this.threadingCount+1, false);
+        this.threading.setData(s, this.threadingCount+2, false);
       }
     } else if (size == 5) {
       // remove block of size 5
       for (var s = 0; s < this.shafts; s++) {
-        this.threading[s][this.threadingCount] = false;
-        this.threading[s][this.threadingCount+1] = false;
-        this.threading[s][this.threadingCount+2] = false;
-        this.threading[s][this.threadingCount+3] = false;
-        this.threading[s][this.threadingCount+4] = false;
+        this.threading.setData(s, this.threadingCount, false);
+        this.threading.setData(s, this.threadingCount+1, false);
+        this.threading.setData(s, this.threadingCount+2, false);
+        this.threading.setData(s, this.threadingCount+3, false);
+        this.threading.setData(s, this.threadingCount+4, false);
       }
     }
     if (this.profileView) {
@@ -246,7 +360,7 @@ class Threading extends DraftContainer {
     // reset profile
     for (var i = 0; i < this.shafts; i++) {
       for (var j = 0; j < this.warps; j++) {
-        this.profile[i][j] = false;
+        this.profile.setData(i, j, false);
       }
     }
 
@@ -256,7 +370,7 @@ class Threading extends DraftContainer {
       // find which shaft the current block is on
       var whichShaft = -1;
       for (var s = 0; s < this.shafts; s++) {
-        if (this.threading[s][currentWarp]) {
+        if (this.threading.getData(s, currentWarp)) {
           whichShaft = s;
           break;
         }
@@ -264,7 +378,7 @@ class Threading extends DraftContainer {
       // update the profile array at the correct shaft, with the correct size block
       //console.log(currentWarp+", "+this.threadingInputs[i]+", "+whichShaft);
       for (var w = 0; w < this.threadingInputs[i]; w++) {
-        this.profile[whichShaft][currentWarp+w] = true;
+        this.profile.setData(whichShaft, currentWarp+w, true);
       }
       currentWarp += this.threadingInputs[i];
     }
@@ -277,11 +391,7 @@ class Threading extends DraftContainer {
     var str = "";
     for (var s = 0; s < this.shafts; s++) {
       for (var w = 0; w < this.warps; w++) {
-        if (this.threading[s][w]) {
-          str += '1';
-        } else {
-          str += '0';
-        }
+        str += this.threading.getData(s, w) ? '1' : '0';
       }
       str += '\n';
     }
@@ -293,11 +403,7 @@ class Threading extends DraftContainer {
     var str = "";
     for (var s = 0; s < this.shafts; s++) {
       for (var w = 0; w < this.warps; w++) {
-        if (profile[s][w]) {
-          str += '1';
-        } else {
-          str += '0';
-        }
+        str += this.profile.getData(s, w) ? '1' : '0';
       }
       str += '\n';
     }
