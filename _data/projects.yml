@@ -1,15 +1,18 @@
 - 
-  name: Bluetooth-Fabric Controller
-  link: /projects/BTfabric
+  name: Flowing Curves Overshot Generator
+  link: /overshot-generator
+- 
+  name: The Ozone Safety Vest
+  link: https://climatechange.teachingethnography.buffscreate.net/artistic-response-the-ozone-safety-vest/
+-
+  name: Loom UI Hacking
+  link: /projects
+- 
+  name: Unfabricate
+  link: /projects/Unfabricate
 - 
   name: E-Textiles Web Multimeter
   link: /projects/ETextileMultimeter
 - 
-  name: Unfabricate
-  link: /projects/Unfabricate
--
-  name: Loom UI Hacking
-  link: /
-- 
-  name: The Ozone Safety Vest
-  link: /overshot-generator
+  name: Bluetooth-Fabric Controller
+  link: /projects/BTfabric
