@@ -8,12 +8,27 @@ fields:
 - type: text
   name: author
   label: author
+  default: Shanel
 - type: text
   name: layout
   label: layout
+  default: post
 - type: datetime
   name: date
   label: date
+- name: course
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: course
+  description: 4-letter dept code and the course number
 - type: text
   name: tags
   label: tags
