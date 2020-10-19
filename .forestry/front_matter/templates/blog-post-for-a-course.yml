@@ -1,5 +1,5 @@
 ---
-label: Blog post for a course
+label: 'Blog post: course'
 hide_body: false
 fields:
 - type: text
