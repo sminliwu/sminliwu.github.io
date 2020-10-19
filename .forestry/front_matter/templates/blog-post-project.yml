@@ -8,9 +8,23 @@ fields:
 - type: text
   name: author
   label: author
+  default: Shanel
+- name: project
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: project
 - type: text
   name: layout
   label: layout
+  default: post
 - type: datetime
   name: date
   label: date
