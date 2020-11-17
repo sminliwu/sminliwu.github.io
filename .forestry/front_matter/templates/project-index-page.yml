@@ -5,8 +5,14 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: project
 - type: text
   name: title
   label: title
+- name: season
+  type: text
+  config:
+    required: false
+  label: season
 pages:
 - projects/ChickenCoop/chicken-coop-management.md
