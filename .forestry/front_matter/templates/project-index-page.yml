@@ -16,7 +16,7 @@ fields:
   label: season
 pages:
 - projects/BTfabric/index.md
-- projects/ChickenCoop/chicken-coop-management.md
+- projects/ChickenCoop/index.md
 - projects/ETextileMultimeter/index.md
 - projects/OvershotGen/index.html
 - projects/Unfabricate/index.md
