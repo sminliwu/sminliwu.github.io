@@ -1,10 +1,9 @@
 ---
 layout: project
 title: Bluetooth-Fabric Controller
+season: Spring 2019
+
 ---
-
-Spring 2019
-
 ## Concept
 
 ![drawing of a stuffed animal being pressed like a button and a smartphone connected to it. Text: "I think this is a keyboard!](./documentation/conceptsketch.jpg)
@@ -23,8 +22,8 @@ My goal was to learn as much as I could about the Bluetooth connectivity standar
 * [Sparkfun Bluetooth Mate Silver](https://www.sparkfun.com/products/12576)
 * Other Bluetooth-enabled device
 * Woven press button
- * Conductive yarn
- * Non-conductive, soft yarn (e.g. wool or acrylic)
+* Conductive yarn
+* Non-conductive, soft yarn (e.g. wool or acrylic)
 
 #### Tools
 
@@ -60,13 +59,14 @@ These instructions are specific to the RN-42 module, so another breakout board m
 2. Load the **wovenButton_simple** code ([GitHub](https://github.com/sminliwu/SW-connectedthings/tree/master/BluetoothFabric/code)) onto the Arduino. If you want a simple Bluetooth serial pipeline between the Arduino and host, load the **BTpipeline** code instead. The indicator LED should light up when the button is pressed. If the button presses are too noisy, load the **wovenButton_debounced** version instead.
 3. Open the serial monitor to configure the RN-42.
 4. Switch the serial monitor from "Newline" to "No line ending" on the bottom dialog. Then, send "**$$$**" to the module to switch it to command mode. You should see the red LED on the module begin blinking much more quickly. (for details on what these commands actually mean, see the user's guide linked at the end)
-5. Send the command "**SN**, _&lt;something unique&gt;_" to rename the module to something you will easily recognize. Send "**D**" to see the new name, as well as your module's pincode. (by default, it's 1234. You can set a custom pin using "**SP**, _&lt;\#\#\#\#&gt;_")
+5. Send the command "**SN**, _<something unique>_" to rename the module to something you will easily recognize. Send "**D**" to see the new name, as well as your module's pincode. (by default, it's 1234. You can set a custom pin using "**SP**, _<####>_")
 6. Send "**---**" to exit command mode and return to pairing mode.
 7. Open the Bluetooth settings on another device, such as your smartphone or laptop, scan for the module, and pair with it. Enter the PIN code when prompted.
 8. Your device should now be connected as the host to the RN-42. You'll need to monitor a serial port on the host (e.g. a terminal emulator on a PC, or apps for your phone) to communicate back and forth, but now the host and RN-42 can talk to each other!
 
 ### Configuring for Button Input
-1. Re-enter command mode on the RN-42. Enter "**S~, 6**" to set the module's profile to HID (Human Interface Device).
+
+1. Re-enter command mode on the RN-42. Enter "**S\~, 6**" to set the module's profile to HID (Human Interface Device).
 2. Enter "**GH**" to check the HID flag register. It should be 0000 by default, which tells the host that the device is a keyboard. If it's anything different, enter "**SH, 0000**".
 3. Enter "**SA, 2**" to set the authentication mode to SSP (simple secure pairing) to make connecting to the module much easier.
 4. Exit command mode. Unpair your device with the module, and scan for it again. The module should show up as a keyboard now!
@@ -96,6 +96,7 @@ Bluetooth was developed with the ambitious goal of replacing wired USB (Universa
 To connect to a USB device, the USB host installs a driver that corresponds to the device. Often, these drivers can work across an entire category of device (e.g. keyboard, speakers) because they are defined for a "profile" that generalizes the category. Many USB device profiles were ported directly into Bluetooth profiles, informing some of the core design features of this newer connectivity standard. My design takes advantage of this embedded history within Bluetooth systems by using the Bluetooth profile of a keyboard.
 
 #### RN-42 Bluetooth Module
+
 Sparkfun's Bluetooth Mates and SMiRF's both use this module in the Silver versions. The gold versions of both boards use the RN-41 module, which has a larger range but similar connectivity capabilities. The difference between Mates and SMiRF's, which are both breakout boards for RN modules, is the pin order which affects which Arduinos can directly plug into them. Both boards have 6 pins that can directly connect to an Arduino's UART pins.
 
 The RN-42 module can be used in Serial Port Profile (SPP) or in Human Interface Device (HID) profile. The configured profile will affect how the device at the other end sees and connects to it.
@@ -103,12 +104,15 @@ The RN-42 module can be used in Serial Port Profile (SPP) or in Human Interface 
 Link to complete [user's guide](https://cdn.sparkfun.com/datasheets/Wireless/Bluetooth/bluetooth_cr_UG-v1.0r.pdf) (advanced).
 
 #### Bluetooth SPP w/ RN-42
+
 The Bluetooth SPP profile is used to replace a wired serial TTL (transistor-transistor logic) connection. Information is transmitted in packets with very little overhead. Both devices must be able to listen and write to a serial port in order to communicate via SPP.
 
 #### Bluetooth HID w/ RN-42
+
 The Bluetooth HID profile is, in fact, a wrapper to the USB HID profile. The HID device interprets input commands as ASCII characters and translates them into packets of bytes, or HID reports. The host receives the reports and converts them to the appropriate output. In the case of keyboards, the information often starts and ends as ASCII, so a string sent by the Arduino via the RN-42 will show up exactly the same on the other end.
 
 ## Other Resources
+
 * [Set-up tutorial for RN-42 modules from Sparkfun](https://learn.sparkfun.com/tutorials/using-the-bluesmirf/all)
 * [RN-42 user's guide](https://cdn.sparkfun.com/datasheets/Wireless/Bluetooth/bluetooth_cr_UG-v1.0r.pdf)
 * [Bluetooth HID user's guide by RN](https://cdn.sparkfun.com/datasheets/Wireless/Bluetooth/RN-HID-User-Guide-v1.0r.pdf)

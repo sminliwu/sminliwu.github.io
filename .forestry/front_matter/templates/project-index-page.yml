@@ -15,6 +15,7 @@ fields:
     required: false
   label: season
 pages:
+- projects/BTfabric/index.md
 - projects/ChickenCoop/chicken-coop-management.md
 - projects/OvershotGen/index.html
 - projects/Unfabricate/index.md
