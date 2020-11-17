@@ -1,0 +1,23 @@
+---
+label: 'Blog post: general'
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: author
+  label: author
+  default: Shanel
+- type: text
+  name: layout
+  label: layout
+  default: post
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: tags
+  label: tags
+pages:
+- _posts/coop-automation-v1-automated-run-door.md
