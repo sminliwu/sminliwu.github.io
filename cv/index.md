@@ -24,9 +24,9 @@ Graduate Researcher, [Unstable Design Lab](https://unstable.design), advised by 
 
 ## Publications
 
-**Shanel Wu**, Laura Devendorf. 2020. Unfabricate: Designing Smart Textiles for Disassembly. *In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems* (CHI ’20). ACM, New York, NY, USA, Paper 100, 14 pages. DOI: https://doi.org/10.1145/3313831.3376227 (Honolulu, HI, USA – April 25-30, 2020).
+**Shanel Wu**, Laura Devendorf. 2020. Unfabricate: Designing Smart Textiles for Disassembly. *In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems* (CHI ’20). ACM, New York, NY, USA, Paper 100, 14 pages. DOI: [https://doi.org/10.1145/3313831.3376227](https://doi.org/10.1145/3313831.3376227) (Honolulu, HI, USA – April 25-30, 2020).
 
-Mikhaila Friske, **Shanel Wu**, and Laura Devendorf. 2019. AdaCAD: Crafting Software For Smart Textiles Design. *In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems* (CHI '19). ACM, New York, NY, USA, Paper 345, 13 pages. DOI: https://doi.org/10.1145/3290605.3300575 (Glasgow, UK – May 4-9, 2019). **Best Paper Honorable Mention.**
+Mikhaila Friske, **Shanel Wu**, and Laura Devendorf. 2019. AdaCAD: Crafting Software For Smart Textiles Design. *In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems* (CHI '19). ACM, New York, NY, USA, Paper 345, 13 pages. DOI: [https://doi.org/10.1145/3290605.3300575](https://doi.org/10.1145/3290605.3300575) (Glasgow, UK – May 4-9, 2019). **Best Paper Honorable Mention.**
 
 ## Teaching Experience
 
