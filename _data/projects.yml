@@ -1,6 +1,6 @@
 ---
 - name: Chicken Coop Management
-  link: ''
+  link: "/ChickenCoop"
 - name: Flowing Curves Overshot Generator
   link: "/overshot-generator"
 - name: The Ozone Safety Vest
