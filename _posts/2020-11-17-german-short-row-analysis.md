@@ -3,7 +3,7 @@ author: Shanel
 layout: post
 title: German Short Row Analysis
 date: 2020-11-17 00:00:00 -0700
-tags: knitting
+tags: knitting illustration
 
 ---
 ![Step-by-step drawings of needles and yarn making a double stitch](/assets/a_makingds.jpg "Making a double stitch a the beginning of a purl row")
