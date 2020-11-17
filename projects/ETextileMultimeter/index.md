@@ -1,8 +1,9 @@
 ---
 layout: project
 title: E-Textiles Web Multimeter
----
+season: Spring 2019
 
+---
 Spring 2019
 
 ## [Visualization Web App](/projects/ETextileMultimeter/main)
