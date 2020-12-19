@@ -2,7 +2,7 @@
 author: Shanel
 layout: post
 title: On Writing with ADHD
-date: 
+date: 2020-12-18 16:00:00 -0700
 tags: ''
 
 ---
