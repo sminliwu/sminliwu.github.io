@@ -6,9 +6,9 @@ date: 2020-07-22 16:00:00 -0600
 tags: project-ChickenCoop
 
 ---
-# Arduino/ESP32-powered automated chicken coop door (V1)
-
 [![r/arduino - Arduino/ESP32-powered automated chicken coop door](https://preview.redd.it/mjpqnuy8gj651.jpg?width=640&crop=smart&auto=webp&s=03b4bcf03d1cf3d64b5e6149fb19d389b98e7a9a)](https://i.redd.it/mjpqnuy8gj651.jpg)
+
+## Arduino/ESP32-powered automated chicken coop door (V1)
 
 * Chip: Sparkfun ESP32 Thing (programmed w/ Arduino)
 * Motor: 12V DC 30RPM gearmotor
