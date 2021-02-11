@@ -1,0 +1,23 @@
+---
+author: Shanel
+layout: post
+title: Re-engaging Ravelry
+date: 2021-02-10 12:00:00 -0700
+tags: knitting handcraft-industry knitwear-design
+
+---
+I'm selling my designs on [Ravelry](https://www.ravelry.com/designers/shanel-wu) again, after much internal debate about effective action. TL;DR: since the pandemic began, I've been using all of my income outside of my student stipend to contribute to mutual aid. Ravelry was most of that income. I think it'd be better and more impactful for me to restart that income stream so I can contribute more to my community.
+
+For the sake of transparency, this was the statement in my designer profile while I had my shop deactivated (July 2020 - February 2021) :
+
+> I have deactivated my Ravelry store until the site has not only addressed their accessibility issues, but also made amends for their harmful response to community feedback, such as suppressing discussion and refusing to be transparent. As someone who is in UX/human-centered design and works for digital technologies to be equitable and justice-oriented, I can't in good conscience use a platform that doesn't reflect those values.
+
+I decided to reactivate Ravelry because I felt that a clear conscience was a flimsy reason to refuse to use a tool, and just monetarily, it wasn't having the impact that any boycott should. Boycotts should be a collective action against the target business, and ultimately, the business should be hit hard enough in their revenue that they're forced to change something. Ravelry wasn't making a lot from me. Less than $2 per month most months, and I know they're making a lot more from big names who aren't small-beans designers like me. 
+
+I'm going to talk about money on my end next. And I talk about making money and losing money, but I want to be clear that I'm not talking about _profit_ and _doing business_, and I'm really trying to not be capitalist. But I know impact matters over intent in the end, so if you have feedback on my impact, all communication channels are open. ([email](mailto:pipernellart@gmail.com), [Instagram DM](https://www.instagram.com/pipernell/), [Ravelry PM](https://www.ravelry.com/people/pipernell), etc.)
+
+I made a lot less on pattern sales without Ravelry, going from at least $70-80 per month (after fees) before June to $10 or less afterwards. I'm incredibly privileged that I was able to give that money up without hurting myself, and I'm hyperaware of that privilege because I've been in times when a $50 gig was the difference between paying rent AND eating or just paying rent. Grad school doesn't pay a whole lot, but it's been a reliable stipend every month that's enough for me to be comfortable. Beginning around March of last year, when the pandemic was starting to _definitely_ hit the economy and people around me were losing work, I knew that there were going to be lots more people needing money and resources, and being way worse off than I ever was. So I started giving all of my supplemental income (what I earned outside of my grad student stipend, which was mostly pattern sales through Ravelry) to people in need, prioritizing Black, Indigenous, queer, marginalized genders, and disabled folks, _especially_ folks at the intersections. I was so grateful that I could come across someone's call for aid on social media, and actually Venmo/Cashapp/Paypal/etc. money to them, instead of just feeling terrible that I didn't have anything to give. 
+
+I really want to do that more. And it doesn't matter whether I want to or not, I feel that it's my _responsibility_ to do my part in redistributing resources -- not just my resources but also the resources that I should take from those with more privilege than me to those whose privileges were taken, as reparations. Cutting myself off from Ravelry was just limiting how much I could contribute to my community.
+
+Looking over my personal accounting spreadsheet (good ol' fashioned data entry), I made \~$600 in pattern sales throughout 2020. Adding up all of what I sent to folks for aid, I gave \~$700 in 2020. That might not seem like a lot of money to some of you reading this, and it honestly doesn't feel like a lot to me either, but hey, that's how much the second stimulus payment was for us Americans. So think about what would be a lot of money. A _good_ amount. _Enough_ money and resources to not just survive, but to thrive. Nobody should have to go without that, and I'd love to talk to more people about how we could get there.
