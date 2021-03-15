@@ -8,7 +8,7 @@ fields:
 - type: text
   name: author
   label: author
-  default: Shanel
+  default: S
 - name: project
   type: select
   default: ''
