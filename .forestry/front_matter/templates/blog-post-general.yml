@@ -8,7 +8,7 @@ fields:
 - type: text
   name: author
   label: author
-  default: Shanel
+  default: S
 - type: text
   name: layout
   label: layout
@@ -23,5 +23,3 @@ pages:
 - _posts/2020-07-22-coop-automation-v1-automated-run-door.md
 - _posts/2020-11-17-german-short-row-analysis.md
 - _posts/kickshaws-ankle-strap.md
-- _posts/on-writing-with-adhd.md
-- _posts/re-engaging-ravelry.md
