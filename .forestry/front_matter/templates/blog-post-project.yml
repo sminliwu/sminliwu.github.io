@@ -28,6 +28,7 @@ fields:
 - type: datetime
   name: date
   label: date
+  default: now
 - type: text
   name: tags
   label: tags
