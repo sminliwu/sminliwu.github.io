@@ -14,12 +14,22 @@ My Kickshaws samples were prone to falling down the back of the foot, which I se
 
 Because the back of the slipper was in garter stitch, a very stretchy stitch, the slipper would tend to be loose around the heel and it would be easily pulled down by the heel/sole seam when the wearer moves. An ankle strap adds a band of less-stretchy, higher-tension fabric right above the heel. And since most people's heels form a flared base from the ankle, this band won't want to slip down the heel unless there's a much bigger force (like the wearer tugging the slipper off).
 
-I've provided two different methods: 
+I've provided two different methods:
 
 1. An **embedded i-cord** method for any ongoing or new Kickshaws projects going forward.
 2. An **afterthought i-cord** or **crochet row** method for Kickshaws that are past Part 2 or already completed. Alternatively, you could make the Kickshaws as written and adjust the finished slippers with this method.
 
 ## Instructions
+
+### Abbreviations
+
+**RS** - right side of work (outside of slipper) // **WS** - wrong side (inside)  
+**R**/**L needle** - right/left needle**  
+st** - stitch  
+**k** - knit // **p** - purl  
+**CO** - cast on  
+**sl** - slip stitch // **wyif** - with yarn in front // **wyib** - with yarn in back  
+**pm** - place stitch marker // **sm** - slip marker
 
 ### 1. Embedded I-cord Method
 
@@ -53,6 +63,6 @@ Use the same needle size you used to knit the slippers. Beginning at point \[a\]
 
 Disclaimer: I still haven't written a crochet pattern before, and don't consider myself rigorous enough to be a crochet "designer", so instructions on gauge/tension and hook size may be wishy-washy. I use American crochet terms (UK equivalent in parentheses).
 
-Use a crochet hook equivalent to the needle size you used to knit the slippers. If you're an especially tight or loose crocheter, you may need to size up or down accordingly. Beginning at the point \[a\] marked in the diagram \[make diagram with X on ankle where strap starts\], insert your hook into the purl bump of the garter ridge. Make a single crochet (?? crochet) stitch.
+Use a crochet hook equivalent to the needle size you used to knit the slippers. If you're an especially tight or loose crocheter, you may need to size up or down accordingly. Beginning at the point \[a\] marked in the diagram \[make diagram with X on ankle where strap starts\], insert your hook into the purl bump of the garter ridge. Make a single crochet (?? crochet in UK) stitch.
 
 Move to the next garter ridge and the stitch right above the one you just crocheted into. Make another stitch. Continue around the heel in this way until you reach the equivalent point on the other side of the ankle. \[also point it out on diagram? or have a directional arrow on the first diagram\]
