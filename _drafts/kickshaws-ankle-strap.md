@@ -2,7 +2,7 @@
 author: S
 layout: post
 title: Kickshaws Ankle Strap
-date: 2021-01-20T12:00:00.000-07:00
+date: 2021-04-05 12:00:00 -0600
 tags: knitting knitwear-design
 
 ---
@@ -24,7 +24,7 @@ I've provided two different methods:
 ### Abbreviations
 
 **RS** - right side of work (outside of slipper) // **WS** - wrong side (inside)  
-**R**/**L needle** - right/left needle**  
+**R**/**L needle__ - right/left needle**  
 st** - stitch  
 **k** - knit // **p** - purl  
 **CO** - cast on  
@@ -63,6 +63,6 @@ Use the same needle size you used to knit the slippers. Beginning at point \[a\]
 
 Disclaimer: I still haven't written a crochet pattern before, and don't consider myself rigorous enough to be a crochet "designer", so instructions on gauge/tension and hook size may be wishy-washy. I use American crochet terms (UK equivalent in parentheses).
 
-Use a crochet hook equivalent to the needle size you used to knit the slippers. If you're an especially tight or loose crocheter, you may need to size up or down accordingly. Beginning at the point \[a\] marked in the diagram \[make diagram with X on ankle where strap starts\], insert your hook into the purl bump of the garter ridge. Make a single crochet (?? crochet in UK) stitch.
+Use a crochet hook equivalent to the needle size you used to knit the slippers. If you're an especially tight or loose crocheter, you may need to size up or down accordingly. Beginning at the point \[a\] marked in the diagram \[make diagram with X on ankle where strap starts\], insert your hook into the purl bump of the garter ridge. Make a single crochet (UK: double crochet) stitch.
 
 Move to the next garter ridge and the stitch right above the one you just crocheted into. Make another stitch. Continue around the heel in this way until you reach the equivalent point on the other side of the ankle. \[also point it out on diagram? or have a directional arrow on the first diagram\]
