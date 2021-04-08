@@ -17,7 +17,7 @@ fields:
     options: []
     source:
       type: documents
-      section: ''
+      section: projects
       file: _data/projects.yml
       path: 
   label: project

@@ -4,6 +4,6 @@ title: Projects
 ---
 <h1>Projects</h1>
 
-{% for project in site.data.projects %}
+{% for project in site.data.projects.projects %}
 <p><a href="{{ project.link }}">{{ project.name }}</a></p>
 {% endfor %}
