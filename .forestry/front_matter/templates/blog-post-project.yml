@@ -16,9 +16,9 @@ fields:
     required: false
     options: []
     source:
-      type: pages
-      section: projects
-      file: 
+      type: documents
+      section: site-data
+      file: _data/projects.yml
       path: 
   label: project
 - type: text
