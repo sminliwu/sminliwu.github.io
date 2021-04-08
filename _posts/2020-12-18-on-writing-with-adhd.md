@@ -3,7 +3,7 @@ author: Shanel
 layout: post
 title: On Writing with ADHD
 date: 2020-12-18 16:00:00 -0700
-tags: ''
+tags: writing
 
 ---
 _An excerpt from a short reflective essay on making a presentation for seminar._
