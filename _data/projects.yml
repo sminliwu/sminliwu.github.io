@@ -1,29 +1,30 @@
+---
 projects:
-  ChickenCoop:
+  - ChickenCoop:
     name: "Chicken Coop Management"
     link: "/projects/ChickenCoop"
     tag: "project-ChickenCoop"
-  OvershotGen:
+  - OvershotGen:
     name: "Flowing Curves Overshot Generator"
     link: "/projects/OvershotGen"
     tag: "project-OvershotGen"
-  OzoneVest: 
+  - OzoneVest: 
     name: "The Ozone Safety Vest"
     link: "https://climatechange.teachingethnography.buffscreate.net/artistic-response-the-ozone-safety-vest/"
     tag: "project-OzoneVest"
-  LoomUI:
+  - LoomUI:
     name: "Loom UI Hacking"
     link: "/projects"
     tag: "project-LoomUI"
-  Unfabricate:
+  - Unfabricate:
     name: "Unfabricate"
     link: "/projects/Unfabricate"
     tag: "project-Unfabricate"
-  ETextileMultimeter:
+  - ETextileMultimeter:
     name: "E-Textiles Web Multimeter"
     link: "/projects/ETextileMultimeter"
     tag: "project-ETextileMultimeter"
-  BTfabric:
+  - BTfabric:
     name: "Bluetooth-Fabric Controller"
     link: "/projects/BTfabric"
     tag: "project-BTfabric"
