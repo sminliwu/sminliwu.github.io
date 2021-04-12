@@ -2,7 +2,7 @@
 author: S
 layout: post
 title: Kickshaws Ankle Strap
-date: 2021-04-05 12:00:00 -0600
+date: 2021-04-05T12:00:00.000-06:00
 tags: knitting knitwear-design
 
 ---
@@ -13,6 +13,8 @@ My Kickshaws samples were prone to falling down the back of the foot, which I se
 ## Structure/Schematic
 
 Because the back of the slipper was in garter stitch, a very stretchy stitch, the slipper would tend to be loose around the heel and it would be easily pulled down by the heel/sole seam when the wearer moves. An ankle strap adds a band of less-stretchy, higher-tension fabric right above the heel. And since most people's heels form a flared base from the ankle, this band won't want to slip down the heel unless there's a much bigger force (like the wearer tugging the slipper off).
+
+![](/assets/tension-2x.png)
 
 I've provided two different methods:
 
