@@ -23,10 +23,12 @@ I've provided two different methods:
 
 Both methods will begin on the instep near the ankle (see **Diagram A** below), and progress around the back of the ankle. The ankle strap ends at the point on the other side of the instep/ankle marked in **Diagram B**.
 
-### Diagram A  
+### Diagram A
+
 ![Profile view of a foot's right side with a red 'X' on the instep](/assets/beginning-2x.png "Diagram A: The starting point and working direction for the ankle strap")
 
 ### Diagram B
+
 ![Profile view of a foot's left side with a red 'X' on the instep](/assets/ending-2x.png "Diagram B: the ending point for the ankle strap")
 
 ## Instructions
@@ -43,7 +45,7 @@ st** - stitch
 
 ### 1. Embedded I-cord Method
 
-These instructions begin in Part 2 of the pattern and modify **Rows 7-10**. Work the pattern instructions, repeating Rows 7-10, until the CO for additional stitches. Cast on 6 (8, 12, 14) sts as written to create the leg of the slipper, or however many sts are needed to create the desired leg shaft. Rather than working Rows 9-10 after the cast on, work rows A-B once to set up the embedded i-cord. 
+These instructions begin in Part 2 of the pattern and modify **Rows 7-10**. Work the pattern instructions, repeating Rows 7-10 as written, until the CO for additional stitches. Cast on 6 (8, 12, 14) sts as the pattern instructs to create the leg of the slipper, or however many sts are needed to create the desired leg shaft. Rather than working Rows 9-10 after the cast on, work **Rows A-B** once to set up the embedded i-cord.
 
 > **Row A (RS, set up in CC):** knit first 7 (8, 12, 14) sts, or the number of sts cast on plus one (CO + 1), then place a stitch marker. k3, pm, k to 1 st from end, sl1 wyib, pick up and knit 1 st in selvedge, psso.
 >
@@ -73,13 +75,19 @@ Finish Part 2 using these modified instructions, including when you switch to th
 
 These instructions assume that you have the slipper oriented so that the toe is pointing down and the cuff is pointing to your right. So the ankle strap should first go "up" the work to go around the back of the heel.
 
+The fun thing about any "afterthought" technique is that you have complete freedom in what yarn you use! You can use either MC or CC for an afterthought ankle strap. Heck, you can use any other yarn at your disposal. Just keep in mind that yarns that differ greatly from the worsted-weight wool yarns you used in the rest of the slipper will give a different effect. They might stretch differently or create smaller/bigger stitches, and you might have to fiddle more with spacing out stitches/rows.
+
 #### 2.1 Afterthought I-cord
 
 Use the same needle size you used to knit the slippers. Beginning at the point marked with a red "X" in **Diagram A**, use your R needle to pick up and knit three sts in a garter ridge. Slip all three sts to your L needle (or if you're using DPN's, just slide them over) with the yarn in back.
 
-**I-cord Row 1:** Pick up (without knitting) the stitch above the previous row, in the next garter ridge. Slip this stitch onto the L needle. K2tog. You should still have 3 stitches on the needle. K2, slip 3 to L needle wyib.
+Repeat the following two rows to work an attached i-cord:
 
-**I-cord Row 2:** K3, slip 3 to L needle wyib.
+> **I-cord Row 1:** Pick up (without knitting) the stitch above the previous row, in the next garter ridge. Slip this stitch onto the L needle. K2tog. You should still have 3 stitches on the needle. K2, slip 3 to L needle wyib.
+>
+> **I-cord Row 2:** K3, slip 3 to L needle wyib.
+
+Continue around the heel until you reach the ending point marked with a red "X" in **Diagram B**. Cut your yarn, leaving a 6"/15cm tail. Use the tail to sew the three i-cord stitches to the next garter ridge on the slipper.
 
 #### 2.2 Afterthought Crochet Row
 
@@ -87,4 +95,4 @@ Disclaimer: I still haven't written a crochet pattern before, and don't consider
 
 Use a crochet hook equivalent to the needle size you used to knit the slippers. If you're an especially tight or loose crocheter, you may need to size up or down accordingly. Beginning at the point marked with a red "X" in **Diagram A**, insert your hook into the purl bump of the garter ridge. Make a single crochet (UK: double crochet) stitch.
 
-Move to the next garter ridge and the stitch right above the one you just crocheted into. Make another single (double) crochet stitch. Continue around the heel in this way until you reach the equivalent point on the other side of the ankle, which is pointed out in **Diagram B**.
+Move to the next garter ridge and the stitch right above the one you just crocheted into. Make another single (double) crochet stitch. Continue around the heel until you reach the ending point marked with a red "X" in **Diagram B**.
