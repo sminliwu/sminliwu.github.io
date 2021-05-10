@@ -2,8 +2,8 @@
 author: S
 layout: post
 title: Repairing a Micro-USB plug
-date: 2021-05-10 16:00:00 -0600
-tags: ''
+date: 2021-05-10T16:00:00.000-06:00
+tags: electronics repair
 
 ---
 WARNING: tech gore.
@@ -25,9 +25,9 @@ Process of elimination:
 
 ### 1. Deconstructing
 
-I used an exacto knife to dissect the cut-off plug. It's actually a lot like dissecting an earthworm, if anyone else did that in high school/middle school biology. The plastic housing of the plug requires some force to remove. But from my experience dissecting other cable connectors, most of these housings should be a shell around a smaller metal/plastic connector component. So I cut the plug along the seam (see picture below) to expose that core.
+I used an exacto knife to dissect the cut-off plug. It's actually a lot like dissecting an earthworm, if anyone else did that in high school/middle school biology. The plastic housing of the plug requires some force to remove. But from my experience dissecting other cable connectors during [Unfabricate](https://sminliwu.github.io/projects/Unfabricate/electronic_0000 "Dissecting an electronic cable"), most of these housings should be a shell around a smaller metal/plastic connector component. So I cut the plug along the seam (see picture below) to expose that core.
 
-\[image of cutting-plug\]
+![](/assets/img/cutting-plug.png)
 
 Once I removed the core connector, the whole piece snapped off at the solder joints and some of the other metal bits in the plug seemed pretty worn.
 
@@ -48,5 +48,7 @@ Soldering stranded wire is the bane of my existence. When soldering the cut ends
 Since my new solder joins were much bulkier than the original wiring, I needed to build a bigger shell to protect the wires from breaking at those joins. Luckily, my lab had a box of plastic fake nails (the kind you glue on your fingernails) from an previous research project. I took a heat gun and melted them onto the plug like scales. The nails didn't totally melt together to form with each other, so I alternated a bit of heat shrink with each plastic nail layer.
 
 ![](/assets/20210507_181729-1.jpg)
+
+It's gorgeous, no? To cap off this horror, I encapsulated the now-rigid plug with more heat shrink and sealed it with hot glue.
 
 ![](/assets/20210507_191918-1.jpg)
