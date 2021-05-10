@@ -23,16 +23,30 @@ Process of elimination:
 
 ## Repairing
 
-### Deconstructing
+### 1. Deconstructing
 
 I used an exacto knife to dissect the cut-off plug. It's actually a lot like dissecting an earthworm, if anyone else did that in high school/middle school biology. The plastic housing of the plug requires some force to remove. But from my experience dissecting other cable connectors, most of these housings should be a shell around a smaller metal/plastic connector component. So I cut the plug along the seam (see picture below) to expose that core.
 
 \[image of cutting-plug\]
 
-### Soldering
+Once I removed the core connector, the whole piece snapped off at the solder joints and some of the other metal bits in the plug seemed pretty worn.
 
-A micro-USB plug generally has 5 pins in it, with the rightmost being 1. 
+### 2. Soldering
+
+A micro-USB plug generally has 5 pins in it, with the rightmost being 1.
 
 ![](http://www.hobbytronics.co.uk/image/data/tutorial/usb-micro-b-plug.jpg)
 
-![](/assets/20210507_173443-1.jpg)![](/assets/20210507_181729-1.jpg)![](/assets/20210507_191918-1.jpg)
+Since the back part of the connector wasn't useful anymore, I removed it to expose the back of those pins. I used the multimeter one more time on the pins (one probe on the back metal piece, one probe on the pin inside the plug) to make sure I had both ends of the correct pin. I made two _really_ small solder connections, just a tiny dab of solder on each to stick down all the strands of the cable wires. 
+
+Soldering stranded wire is the bane of my existence. When soldering the cut ends of the wire back together, I found it helpful to strip extra length (a little more than half an inch / 2cm), so that I could fan out the strands on each end, interleave them like when you intertwine your fingers, and fold the ends over. Then over this folded region of the wire, I soldered the clump until it was a solid bead.
+
+![](/assets/20210507_173443-1.jpg)
+
+### Reconstructing the plug housing
+
+Since my new solder joins were much bulkier than the original wiring, I needed to build a bigger shell to protect the wires from breaking at those joins. Luckily, my lab had a box of plastic fake nails (the kind you glue on your fingernails) from an previous research project. I took a heat gun and melted them onto the plug like scales. The nails didn't totally melt together to form with each other, so I alternated a bit of heat shrink with each plastic nail layer.
+
+![](/assets/20210507_181729-1.jpg)
+
+![](/assets/20210507_191918-1.jpg)
