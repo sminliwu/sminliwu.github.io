@@ -2,7 +2,7 @@
 author: S
 layout: post
 title: Kickshaws Ankle Strap
-date: 2021-04-13 12:00:00 -0600
+date: 2021-04-13T12:00:00.000-06:00
 tags: knitting knitwear-design
 
 ---
@@ -35,13 +35,14 @@ Both methods will begin on the instep near the ankle (see **Diagram A** below), 
 
 ### Abbreviations
 
-**RS** - right side of work (outside of slipper) // **WS** - wrong side (inside)  
-**R**/**L needle__ - right/left needle**  
-st** - stitch  
-**k** - knit // **p** - purl  
-**CO** - cast on  
-**sl** - slip stitch // **wyif** - with yarn in front // **wyib** - with yarn in back  
-**pm** - place stitch marker // **sm** - slip marker
+**CO** - cast on**  
+st** - stitch**  
+RS** - right side of work (outside of slipper) / **WS** - wrong side (inside)  
+**MC** - main color / **CC** - contrasting color  
+**k** - knit / **p** - purl  
+**R**/**L needle__** - right/left needle  
+**sl** - slip stitch // **wyif** - with yarn in front / **wyib** - with yarn in back  
+**pm** - place stitch marker / **sm** - slip marker
 
 ### 1. Embedded I-cord Method
 
