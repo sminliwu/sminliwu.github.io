@@ -23,6 +23,16 @@ Process of elimination:
 
 ## Repairing
 
+### Deconstructing
+
 I used an exacto knife to dissect the cut-off plug. It's actually a lot like dissecting an earthworm, if anyone else did that in high school/middle school biology. The plastic housing of the plug requires some force to remove. But from my experience dissecting other cable connectors, most of these housings should be a shell around a smaller metal/plastic connector component. So I cut the plug along the seam (see picture below) to expose that core.
+
+\[image of cutting-plug\]
+
+### Soldering
+
+A micro-USB plug generally has 5 pins in it, with the rightmost being 1. 
+
+![](http://www.hobbytronics.co.uk/image/data/tutorial/usb-micro-b-plug.jpg)
 
 ![](/assets/20210507_173443-1.jpg)![](/assets/20210507_181729-1.jpg)![](/assets/20210507_191918-1.jpg)
