@@ -8,13 +8,21 @@ tags: knitting handcraft-industry knitwear-design
 ---
 Continuing my thoughts on re-engaging with Ravelry, pattern cataloging, pricing equity, etc. Writing out my sliding scale policy used in selling my knitwear patterns.
 
+\[Payhip product page as the permalink\]
+
 ## Policies
 
-All my patterns are available on a pay-what-you-can sliding scale. The default **base price** represents a median price where I can maintain a sustainable income from pattern sales.
+### Base Price
+
+All my patterns are available on a pay-what-you-can sliding scale. The default **base price** represents a median price where I can maintain a sustainable income from pattern sales. (What am I sustaining? I'll talk about that below)
+
+### Paying More
 
 If you are able and willing to pay more than the base price, I would be extremely grateful if you did! In my sliding scale model, the people who pay extra directly make it possible for someone else to pay less, or even nothing. To pay **more** than the base price, enter the amount you choose in the "Pay what you want" box, before clicking "Buy Now" or "Add to Cart".
 
 ![](/assets/payhip-pwyw.png)
+
+### Paying Less
 
 To **lower** the base price to a level accessible to you, click "Buy Now" or "Add to Cart" on the pattern page. In checkout, you'll see a prompt to "Add coupon" below the payment options. Use one the following coupon codes:
 
@@ -23,6 +31,10 @@ To **lower** the base price to a level accessible to you, click "Buy Now" or "Ad
 * **PIPER3** - 30% off
 
 ![](/assets/payhip-coupon.png)
+
+### Free Patterns?
+
+In the future, I hope to also be able to offer
 
 ## Pooled Funds
 
