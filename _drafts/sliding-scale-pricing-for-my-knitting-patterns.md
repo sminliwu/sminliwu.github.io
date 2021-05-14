@@ -34,7 +34,7 @@ To **lower** the base price to a level accessible to you, click "Buy Now" or "Ad
 
 ### Free Patterns?
 
-In the future, I hope to also be able to offer
+In the future, I hope to perhaps offer free copies of my patterns, funded by 
 
 ## Pooled Funds
 
