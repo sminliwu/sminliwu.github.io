@@ -2,7 +2,7 @@
 author: S
 layout: post
 title: 'Re-engaging Ravelry: 2/?'
-date: 2021-04-15 12:00:00 -0600
+date: 2021-06-22 12:00:00 -0600
 tags: knitting handcraft-industry knitwear-design ravelry
 
 ---
