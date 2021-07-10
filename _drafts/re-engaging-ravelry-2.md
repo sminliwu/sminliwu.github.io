@@ -6,6 +6,8 @@ date: 2021-06-22 12:00:00 -0600
 tags: knitting handcraft-industry knitwear-design ravelry
 
 ---
+It's been over a year since Ravelry updated their website, introducing severe accessibility problems with their theme.
+
 The statement currently on my Ravelry designer profile page:
 
 > If you are interested in purchasing my patterns, please visit my [Payhip store](https://payhip.com/pipernell). Because I have migrated all of my patterns to Payhip as of April 2021, they will not be available as Ravelry purchases. However, I will leave my pattern pages on Ravelry, as this site is still the most effective knitting and crochet pattern database to date.
