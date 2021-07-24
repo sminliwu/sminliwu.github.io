@@ -35,12 +35,12 @@ Both methods will begin on the instep near the ankle (see **Diagram A** below), 
 
 ### Abbreviations
 
-**CO** - cast on**  
-st** - stitch**  
-RS** - right side of work (outside of slipper) / **WS** - wrong side (inside)  
+**CO** - cast on  
+**st** - stitch  
+**RS** - right side of work (outside of slipper) / **WS** - wrong side (inside)  
 **MC** - main color / **CC** - contrasting color  
 **k** - knit / **p** - purl  
-**R**/**L needle__** - right/left needle  
+**R**/**L needle** - right/left needle  
 **sl** - slip stitch // **wyif** - with yarn in front / **wyib** - with yarn in back  
 **pm** - place stitch marker / **sm** - slip marker
 
