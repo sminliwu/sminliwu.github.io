@@ -27,7 +27,7 @@ Most of them had sour cream in the filling. Of the above links, only the King Ar
 
 ### Graham Cracker Crust
 
-I love this crust so much. I'm so happy that I now have another option for a dessert shell, since I only had pie crust up to this point. Sally has a recipe post [just for the graham cracker crust](https://sallysbakingaddiction.com/how-to-make-a-perfect-graham-cracker-crust/) for easy segmentation. I crushed the graham crackers manually using a drinking glass and mixing bowl as mortar and pestle. 
+I love this crust so much. I'm so happy that I now have another option for a dessert shell, since I only had pie crust up to this point. Sally has a recipe post [just for the graham cracker crust](https://sallysbakingaddiction.com/how-to-make-a-perfect-graham-cracker-crust/) for easy segmentation. I crushed the graham crackers manually using a drinking glass and mixing bowl as mortar and pestle. With only three ingredients (1.5 cups graham crackers / 5 tbsp butter / 0.25 cups sugar = a thick crust covering the bottom of a 9" pie tin), this will be easy to scale up or down for any quantity. Pardon my units, I haven't converted them yet.
 
 ### Filling
 
@@ -35,10 +35,12 @@ The most interesting thing about the filling was that the recipe specifies to br
 
 ### Baking with a Water Bath
 
+Out of all the new things in this baking procedure, the water bath stood out to me.
+
 ### Other Notes
 
 * Got the other ingredients in bulk through _COSTCO_, my friends. I did not realize a bulk package of cream cheese would come in a giant, 3-pound log.
-* I made a (straw)berry sauce
+* I made a (straw)berry sauce starting with leftover fruit syrup from making pie. The syrup had solidified into gel because of the corn starch, so I added some water and reheated it to re-liquefy. I had a burst of spontaneous genius and added a splash of rosé.
 
 ## Fruit Tart
 
