@@ -2,7 +2,7 @@
 author: S
 layout: post
 title: Baking Experiments, Second Half of July 2021
-date: 2021-07-30 00:00:00 -0600
+date: 2021-08-10 19:00:00 -0600
 tags: baking, kitchen experiments, not-research
 
 ---
