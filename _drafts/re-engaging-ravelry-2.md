@@ -6,7 +6,7 @@ date: 2021-06-22 12:00:00 -0600
 tags: knitting handcraft-industry knitwear-design ravelry
 
 ---
-It's been over a year since Ravelry updated their website, introducing severe accessibility problems with their theme.
+It's been over a year since Ravelry updated their website, introducing severe accessibility problems with their theme. While I'm privileged to not be physically affected by the changes to the site, too many people have been harmed with migraines and seizures triggered by the site's visuals. I've had several hard lessons in
 
 The statement currently on my Ravelry designer profile page:
 
