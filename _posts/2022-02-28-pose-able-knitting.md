@@ -8,4 +8,4 @@ tags: knitting
 ---
 ![](/assets/20220224_101118.jpg)
 
-Turns out, saving all those wires from grocery store twist ties and coffee bag closures paid off. Wire first, then stuffing (thread scraps), while the tube is being knit.
+Turns out, saving all those wires from grocery store twist ties and coffee bag closures paid off. Wire first, then stuffing (thread scraps), while the tube is being knit on double-pointed needs.
