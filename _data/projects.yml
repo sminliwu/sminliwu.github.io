@@ -1,9 +1,13 @@
 ---
-- ChickenCoop: ''
+- LoomPedals: 
+  name: Loom Pedals
+  link: "/projects/LoomPedals"
+  tag: project-LoomPedals
+- ComboGen: 
   name: Random Combo Generator
-  link: ''
-  tag: ''
-- ChickenCoop: ''
+  link: "/projects/ComboGen"
+  tag: project-ComboGen
+- ChickenCoop: 
   name: Chicken Coop Management
   link: "/projects/ChickenCoop"
   tag: project-ChickenCoop
@@ -17,7 +21,7 @@
   tag: project-OzoneVest
 - LoomUI: 
   name: Loom UI Hacking
-  link: "/projects"
+  link: "/projects/LoomUI"
   tag: project-LoomUI
 - Unfabricate: 
   name: Unfabricate
