@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Flowing Curves Overshot Generator
-
+season: Spring / Summer 2020
 ---
 ![](/assets/img/overshot-gen.png)
 

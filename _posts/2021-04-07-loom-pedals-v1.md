@@ -3,7 +3,7 @@ author: S
 layout: post
 date: 2021-04-07T16:19:24.000-06:00
 title: Loom Pedals V1 - Physical Design
-tags: project-LoomUI course-ECEN5783 weaving
+tags: project-LoomPedals course-ECEN5783 weaving
 project: ''
 
 ---
