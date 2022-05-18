@@ -26,7 +26,7 @@ Every resource I reference will be fully listed at the end of this post.
 
 As I saw in the Amazon reviews, and later in the Arduino library docs as well, the YX5300 chip that powers the serial MP3 player isn't very well documented. I suspect the chip is a pretty old design, so any patents/trademarks might have expired or perhaps were always lost to time. Anyway, tangent. The [most thorough documentation](https://majicdesigns.github.io/MD_YX5300/index.html) I've found has been put together by people who had also purchased the board, and wanted to put together something more useful than the "official" [user manual](https://m.media-amazon.com/images/I/81xDdQx7soL.pdf) you get from sellers.
 
-Here's the link to the page I ended up referring to most, by the author of the YX5300 Arduino library I used: https://majicdesigns.github.io/MD_YX5300/index.html
+Here's the link to the page I ended up referring to most, by the author of the YX5300 Arduino library I used: [https://majicdesigns.github.io/MD_YX5300/index.html](https://majicdesigns.github.io/MD_YX5300/index.html "https://majicdesigns.github.io/MD_YX5300/index.html")
 
 ### SD card formatting
 
@@ -39,7 +39,7 @@ Once I had all the files I wanted, I had to rename them each with a 3-digit pref
 
 ### Minimal Arduino sketch example with full debugging output
 
-The Arduino library is listed as `MD_YX5300` in the library manager. Source repo: https://github.com/MajicDesigns/MD_YX5300. The "Simple Player" example code still required an external button component, so I pared it down even more for my "silly simple" set-up.
+The Arduino library is listed as `MD_YX5300` in the library manager. Source repo: [https://github.com/MajicDesigns/MD_YX5300](https://github.com/MajicDesigns/MD_YX5300 "https://github.com/MajicDesigns/MD_YX5300"). The "Simple Player" example code still required an external button component, so I pared it down even more for my "silly simple" set-up.
 
 This code should simply start the MP3 player if everything's correctly wired up, and will play each file in the folder `00` in order, looping through the folder indefinitely.
 
@@ -161,7 +161,7 @@ With both debug flags set, the serial output looked like the below screenshot on
 
 ### Wiring
 
-The ESP32 pinout I used: [Reddit post](https://www.reddit.com/r/esp32/comments/b5mkag/a_better_pinout_diagram_for_esp32_devkit/). I connected the RX and TX pins of the MP3 board to pins 17 and 16 of the ESP32, respectively. Pins 16 and 17 are also aliased as RX2 and TX2 of the ESP, a.k.a. the microcontroller's Serial2 hardware serial interface.
+The ESP32 pinout I used: \[[Reddit post](https://www.reddit.com/r/esp32/comments/b5mkag/a_better_pinout_diagram_for_esp32_devkit/)\]. I connected the RX and TX pins of the MP3 board to pins 17 and 16 of the ESP32, respectively. Pins 16 and 17 are also aliased as RX2 and TX2 of the ESP, a.k.a. the microcontroller's Serial2 hardware serial interface.
 
 Initially, I had the MP3 board connected to regular GPIO pins on the ESP32 (pins 34 and 35) because the original example code offered software serial as an option. But being a newbie to software serial, I didn't understand that it was less reliable than hardware serial, and I wasn't able to get the ESP32 to transmit anything to the YX5300. Oddly enough, I noticed that the ESP32 could RECEIVE data from the YX5300, since it would be able to print the unprompted messages that the chip would send, like when the SD card was removed/replaced.
 
@@ -183,6 +183,11 @@ Prior to soldering, I did find which wire was ground, which is why I knew to sol
 
 ## References
 
-* YX5300/serial MP3 player user manual from seller - https://m.media-amazon.com/images/I/81xDdQx7soL.pdf
-* Community-contributed documentation for Arduino library and YX5300 chip - https://majicdesigns.github.io/MD_YX5300/index.html
-* Community-contributed Arduino library source - https://github.com/MajicDesigns/MD_YX5300
+* YX5300/serial MP3 player user manual from seller - [https://m.media-amazon.com/images/I/81xDdQx7soL.pdf](https://m.media-amazon.com/images/I/81xDdQx7soL.pdf "https://m.media-amazon.com/images/I/81xDdQx7soL.pdf")
+* Community-contributed documentation for Arduino library and YX5300 chip - [https://majicdesigns.github.io/MD_YX5300/index.html](https://majicdesigns.github.io/MD_YX5300/index.html "https://majicdesigns.github.io/MD_YX5300/index.html")
+* ESP32 pinout - [https://www.reddit.com/r/esp32/comments/b5mkag/a_better_pinout_diagram_for_esp32_devkit/](https://www.reddit.com/r/esp32/comments/b5mkag/a_better_pinout_diagram_for_esp32_devkit/ "https://www.reddit.com/r/esp32/comments/b5mkag/a_better_pinout_diagram_for_esp32_devkit/")
+* Community-contributed Arduino library source - [https://github.com/MajicDesigns/MD_YX5300](https://github.com/MajicDesigns/MD_YX5300 "https://github.com/MajicDesigns/MD_YX5300")
+* Sites for downloading free sound files:
+  * MP3 songs - [https://vww.freemp3cloud.com/](https://vww.freemp3cloud.com/ "https://vww.freemp3cloud.com/")
+  * Sound effects, samples, etc. (mostly WAV) - [https://freesound.org/](https://freesound.org/ "https://freesound.org/")
+* Explainer page on audio jack pinouts and schematics - [https://www.cuidevices.com/blog/understanding-audio-jack-switches-and-schematics](https://www.cuidevices.com/blog/understanding-audio-jack-switches-and-schematics "https://www.cuidevices.com/blog/understanding-audio-jack-switches-and-schematics")
