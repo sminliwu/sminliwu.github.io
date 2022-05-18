@@ -30,10 +30,12 @@ As I saw in the Amazon reviews, and later in the Arduino library docs as well, t
 Here's the link to the page I ended up referring to most, by the author of the YX5300 Arduino library I used: https://majicdesigns.github.io/MD_YX5300/index.html
 
 ### SD card formatting
-Following the documentation, I checked that the SD card was formatted with a FAT32 system before dropping any files in, cleared its memory, then created a folder named `01`. The documentation recommended writing all the files to the SD card at once, so I actually also created a `01` folder on my computer's harddrive where I could set up all of the music files, then copy the contents to the SD card. The YX5300 can play MP3 and WAV files, so some file sources I used:
+Following the documentation, I checked that the SD card was formatted with a FAT32 system before dropping any files in, cleared its memory, then created a folder named `00`. The documentation recommended writing all the files to the SD card at once, so I actually also created a `00` folder on my computer's harddrive where I could set up all of the music files, then copy the contents to the SD card. The YX5300 can play MP3 and WAV files, so some file sources I used:
 
 * [Free MP3](https://vww.freemp3cloud.com/) for downloading songs in MP3 format
 * [Freesound.org](https://freesound.org/) for downloading free-to-use sound effects and field samples (mostly WAV's)
+
+Once I had all the files I wanted, I had to rename them each with a 3-digit prefix, which the YX5300 would use to index the files. I'm still figuring out the quirks of the chip's file handling, because you'll see the code reference the folder as '1' while I had to name the folder `00`.
 
 ### Minimal Arduino sketch example with full debugging output
 
@@ -70,7 +72,7 @@ The Arduino library is listed as `MD_YX5300` in the library manager. Source repo
 const uint8_t PIN_LED = LED_BUILTIN;  // LED to show status
 const uint8_t PIN_SWITCH = 33;        // play/pause toggle digital pin, active low (PULLUP)
 
-const uint8_t PLAY_FOLDER = 1;        // tracks are all placed in the folder named '01'
+const uint8_t PLAY_FOLDER = 1;        // tracks are all placed in the folder named '00'
 
 // Debug switch for debugging output - set to non-zero to enable
 #define DEBUG 1
