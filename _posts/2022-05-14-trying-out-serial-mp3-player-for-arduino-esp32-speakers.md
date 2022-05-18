@@ -6,7 +6,7 @@ date: 2022-05-14T00:00:00.000-06:00
 tags: electronics
 
 ---
-![](../assets/img/mp3board/circuit.jpg)
+![](/assets/img/mp3board/circuit.jpg)
 
 Trying out sound-based interactions for a new project (more on the project itself another day, perhaps). Through helping a student with an interactive music/light sculpture a few weeks back, I became aware of several MP3 audio interfaces for Arduinos, and it seemed like a low-cost way (in terms of money and development time) to add sound into my physical computing repertoire.
 
@@ -157,7 +157,7 @@ Then, in the `.cpp` file, I was free to set the `LIBDEBUG` macro to non-zero to 
 
 With both debug flags set, the serial output looked like the below screenshot on start-up.
 
-![](../assets/img/mp3board/serialOutput.png)
+![](/assets/img/mp3board/serialOutput.png)
 
 ### Wiring
 
@@ -171,13 +171,13 @@ The board comes with a built-in 3.5mm audio jack that supports stereo outputs, s
 
 The speakers I had purchased as cheap testers came with two wires that could connect to header pins, not a 3.5mm plug. I had to do a surprising amount of digging to figure out the pinout of the built-in audio jack. Ultimately, I found a [very similar component on AliExpress](https://www.aliexpress.com/item/32707402458.html) which had a detailed schematic.
 
-![](../assets/img/mp3board/jackPinout.jpg)
+![](/assets/img/mp3board/jackPinout.jpg)
 
 I had no idea what was going on with the electrical diagram, but this page from a component manufacturer was super helpful: [Understand Audio Jack Switches and Schematics](https://www.cuidevices.com/blog/understanding-audio-jack-switches-and-schematics "Understand Audio Jack Switches and Schematics"). In the end, the most useful approach was to just solder jumper wires to each of the 6 pads and try connecting them to the speaker.
 
-![](../assets/img/mp3board/soldered-wires.jpg)
+![](/assets/img/mp3board/soldered-wires.jpg)
 
-![](../assets/img/mp3board/soldered-wires2.jpg)
+![](/assets/img/mp3board/soldered-wires2.jpg)
 
 Prior to soldering, I did find which wire was ground, which is why I knew to solder a black wire to the lower left pad for easier identification. At this point, my next step was to whip up a crappy audio amplifier circuit so that the speakers would be loud enough to hear without strapping them to my ears. But that'll be next post.
 
