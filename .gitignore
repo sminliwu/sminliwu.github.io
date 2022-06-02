@@ -21,3 +21,4 @@ nbproject
 *.sublime-workspace
 .idea
 script
+*.code-workspace
