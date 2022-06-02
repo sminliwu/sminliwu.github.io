@@ -5,7 +5,7 @@ tag_generator.py
 
 Copyright 2017 Long Qian
 Contact: lqian8@jhu.edu
-Modifications: Shanel Wu, 2019
+Modifications: Shanel Wu, 2019-2022
 
 This script creates tags for your Jekyll blog hosted by Github page.
 No plugins required.
