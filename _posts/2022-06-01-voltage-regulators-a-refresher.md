@@ -16,20 +16,44 @@ I did NOT want to cut up the relatively-pricey power brick's cord. So I addition
 
 It's a pretty standard power cord, so there are two wires: red (VCC) and black (GND), both of which need to have their ends stripped after cutting.
 
-![](/assets/img/voltReg/1_stripWires.jpg)
+![The cut ends of both wires held up, showing about 0.5in/1cm of insulation stripped from each end, exposing the copper.](/assets/img/voltReg/1_stripWires.jpg)
 
-Now the cord's ready to have the voltage regulator connected. Effectively, what we're doing is tapping into the 24V supply to siphon off the ESP32's smaller power supply. Since 24V is the input voltage, the barrel connector cord needs to go to the board's "IN" side. This particular board has two holes at each connection point (IN + and -, OUT + and -), which makes it easy to insert a cut wire, connecting each end to the same point. I wonder if that was intentional.
+Now the cord's ready to have the voltage regulator connected. Effectively, what we're doing is tapping into the 24V supply to siphon off the ESP32's smaller power supply. Since 24V is the input voltage, the barrel connector cord needs to go to the board's "IN" side. This particular board has two holes at each connection point (IN + and -, OUT + and -), which makes it easy to insert a cut wire, connecting each end to the same point. I wonder if that's an intentional design feature.
 
 ![](/assets/img/voltReg/2_twistIN.jpg)
 
-Once the wires were appropriately inserted, I twisted the cut ends together, then soldered both holes together. The twisting-then-soldering was to ensure a more solid connection.
+Once the wires were appropriately inserted, I twisted the cut ends together, then soldered both holes together. The twisting-then-soldering ensured a more solid connection.
 
 ![](/assets/img/voltReg/3_solderIN.jpg)
+
+I grabbed my multimeter, put it on DC voltage measurement, and connected the two leads to the regulator's OUT connections.
+
 ![](/assets/img/voltReg/4_connectPower.jpg)
+
+
+
 ![](/assets/img/voltReg/5_connectMultimeter.jpg)
+
+
+
 ![](/assets/img/voltReg/6_multimeterVoltage.jpg)
+
+
+
 ![](/assets/img/voltReg/7_screwdriver.jpg)
+
+
+
 ![](/assets/img/voltReg/8_adjustedEnough.jpg)
+
+
+
 ![](/assets/img/voltReg/9_connUSB1.jpg)
+
+
+
 ![](/assets/img/voltReg/10_connUSB2.jpg)
+
+
+
 ![](/assets/img/voltReg/11_insulate.jpg)
