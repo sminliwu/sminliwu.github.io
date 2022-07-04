@@ -92,6 +92,8 @@ As the student progresses through more combinations, they can view the entire lo
 
 ![View of the lower half of the web app, below the "Connection" entry field, after the user has clicked the "Show History" button. The user's history of random combinations is displayed in a table below the button, while the button has changed to "Hide History".](./history.png)
 
+The combination that is currently displayed above is highlighted in blue. A combination highlighted in yellow indicates that the student had skipped it.
+
 ## Technical Implementation
 
 Because the whole goal for making this tool was getting the most function (and the minimum viable prototype) in the least amount of time, I used the environments I was most familiar with, which is client-side JavaScript embedded in HTML/CSS. The full list of components:
