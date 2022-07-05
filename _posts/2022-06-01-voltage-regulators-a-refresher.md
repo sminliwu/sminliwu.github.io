@@ -6,7 +6,7 @@ date: 2022-06-01T18:00:00.000-06:00
 tags: electronics
 
 ---
-![Cover image: a person holds a small voltage regulator PCB in front of a multimeter measuring its output voltage. The multimeter reads 5.03V.](/assets/img/voltReg/8_adjustedEnough.jpg)  
+![Cover image: a person holds a small voltage regulator PCB in front of a multimeter measuring its output voltage. The multimeter reads 5.03V.](/assets/img/voltReg/8_adjustedEnough.jpg)
 
 Continuing my exploration of cheap-o components from Amazon ([link to the one I bought](https://www.amazon.com/dp/B01MQGMOKI "voltage regulator product link")) for this sound-interactive project, I needed a way to supply multiple voltage levels from a single power socket, so voltage regulators to the rescue. Namely, I needed a speaker amp (VCC = 24V) and ESP32's (VCC = 5V) to both run off of the speaker amp's power brick.
 
@@ -26,34 +26,34 @@ Once the wires were appropriately inserted, I twisted the cut ends together, the
 
 ![](/assets/img/voltReg/3_solderIN.jpg)
 
-I grabbed my multimeter, put it on DC voltage measurement, and connected the two leads to the regulator's OUT connections.
+The (sparse) documentation doesn't really give any instructions, but I could glean the adjustment procedure from the buyer reviews. You can't know the output voltage until you supply the input voltage, so I connected the regulator cord to the 24V power supply.
 
 ![](/assets/img/voltReg/4_connectPower.jpg)
 
+I grabbed my multimeter, put it on DC voltage measurement, and connected the two leads to the regulator's OUT connections.
 
+\[**NOTE:** [one of the reviews](https://www.amazon.com/gp/customer-reviews/R2IE8EMWTWPTL2/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B01MQGMOKI) warns against adjusting the output voltage this way, on an open circuit without any load. I was fine, but if this is a concern, you can connect a decent-size resistor (3-5kΩ) across OUT along with the multimeter leads.\]
 
 ![](/assets/img/voltReg/5_connectMultimeter.jpg)
 
-
+The regulators all ship with some random output voltage, since the trim pot on the board is positioned somewhere in the middle of its range.
 
 ![](/assets/img/voltReg/6_multimeterVoltage.jpg)
 
-
+I found a flat-head screwdriver more effective than a Phillips-head for actually turning the trim pot, but your mileage may vary. There aren't any set divisions on the trim pot to set a particular voltage, so you have to rely on manual dexterity to turn the tiny plate to _just_ the right position. At the same time, watch the reading on the multimeter to see how close you're getting to the right output voltage.
 
 ![](/assets/img/voltReg/7_screwdriver.jpg)
 
+I decided 0.03V away from 5V was close enough.
 
-
-![](/assets/img/voltReg/8_adjustedEnough.jpg)
-
-
+![](/assets/img/voltReg/8_adjustedEnough.jpg)Once the output voltage was set, I connected a micro-USB cable on the OUT side of the regulator.
 
 ![](/assets/img/voltReg/9_connUSB1.jpg)
 
-
+Here, having two holes per connection point came in handy again, as I could solder two micro-USB cables to the OUT connections and thus power two ESP32's from the same supply.
 
 ![](/assets/img/voltReg/10_connUSB2.jpg)
 
-
+And hot glue to insulate the whole thing, for maximum jank.
 
 ![](/assets/img/voltReg/11_insulate.jpg)
