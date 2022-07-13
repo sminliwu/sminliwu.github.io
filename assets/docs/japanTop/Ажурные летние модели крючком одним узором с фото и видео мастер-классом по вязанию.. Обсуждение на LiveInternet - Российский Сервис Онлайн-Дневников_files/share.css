@@ -1,0 +1,42 @@
+.mmshare{
+    display: /*inline-*/block;
+}
+.mmshare_r1{
+    padding-left: 5px; /*5px; 4big */ /* 3px 4small */
+}
+.mmshare_counter{
+    /*
+    4big:*/
+    /*float: right;*/
+    display: inline-block;
+    color: #000;
+    font-size: 20px;
+    font-family: sans-serif;
+    height: 22px;
+    background-color: #eee;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    top: -8px;
+    position: relative;
+    min-width: 23px;
+
+    /*4small:*/
+    /*
+    float: right;
+    display: inline-block;
+    color: #000;
+    font-size: 14;
+    font-family: sans-serif;
+    height: 16px;
+    background-color: #eee;
+    margin-left: 5px;
+    padding: 0 5px;
+    border-radius: 2px;
+    */
+}
+
+/** liru hacks*/
+.li-S-share_baloon{
+    /*width: auto !important;*/
+}

@@ -6,6 +6,7 @@ season: Spring 2022
 ---
 
 [intro text]
+I feel like this kind of thing would be better presented as interactive annotations on the actual code file.
 
 ## .TXT File Loading
 
@@ -83,6 +84,43 @@ function parseData() {
 ```
 
 ## Helper Classes: Item and Combo
+
+```
+class Item {
+    constructor(i, wk, n, d) {
+        this.id = i;
+        this.week = wk;
+        this.name = n;
+        this.def = d;
+    }
+}
+```
+
+```
+class Combo {
+    constructor(i, a, b, con="") {
+        this.id = i;
+        this.itemA = a;
+        this.itemB = b;
+        this.connection = con;
+    }
+
+    copy() {
+        return new Combo(this.id, this.itemA, this.itemB, this.connection);
+    }
+
+    setCon(str) {
+        this.connection = str.toString();
+    }
+
+    swapItems() {
+        var hold = this.itemA.copy();
+        this.itemA = this.itemB.copy();
+        this.itemB = hold;
+    }
+}
+```
+
 
 ## "Random" Generation and Selection
 
