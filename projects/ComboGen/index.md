@@ -74,7 +74,7 @@ Here's where the students actually used the tool. With all of their combined wor
 
 More on the actual interface in the next section.
 
-## Interface
+## Interface Design
 
 Here's a more thorough walkthrough of the web app's interface as a student would have seen it during the classroom activity.
 
@@ -123,8 +123,61 @@ The `Combo` class primarily stores a link between two specific `Items`, with som
 
 ### "Random" Generation
 
+As a result of the `parseData()` function having executed, the program should have a large dataset, `choices`, consisting of `Items` that are separated by the week they belong to. The `generateCombos()` function runs at this point, and its goal is to generate a list of all the possible combinations of `Items`. It starts by making a list of each possible pair of weeks, since our classroom exercise defines a valid `Combo` as a pair of terms/concepts from two _different_ weeks (2-6). We wanted students to have to explain connections between a concept from week 4 and one from week 2, a combination of week 3 and 6, etc. 
+
+I should note that order doesn't matter with these week pairings. Representing a pair as a two-number list, the pair `[4, 2]` means exactly the same thing as `[2, 4]`, so the list of pairs only includes one of these representations to avoid duplication.
+
+Once each pair of weeks had been listed out, `generateCombos()` then proceeds to list out all the possible `Combos` from the `Items` in each week pairing. In other words, for the generic pair `[a, b]`, week `a` has its set of associated `Items` and likewise for week `b`. We want all the possible combinations of `itemA` and `itemB` from weeks `a` and `b` respectively. Like with pairing the weeks, order doesn't matter -- connecting `itemA` to `itemB` is the same as connecting `itemB` to `itemA`.
+
+Once `generateCombos()` is done, we have a massive list of `Combos` to choose from, which is stored in the `comboChoices` array. When we ran this activity, students generated about 15-20 key terms for each week. Roughly estimating how many combinations this generates, we start with the fact that there are `5 * 4 = 20` pairings of different weeks. Even if we underestimate that students could only generate 10 key terms per weekly topic, each week pairing would still have `10 * 10 = 100` possible `Combos`, for a total of `20 * 100 = 2000` combinations of terms to choose from. Our actual numbers: one section of the class generated 6,873 `Combos`, and the other generated 11,720 `Combos`. 
+
+There hasn't been anything mathematically sophisticated here, and that will stay true as I describe the crude way that `Combos` are selected in the `pickCombo()` function. I just used the built-in `Math.random()` [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random), which gives a _PSEUDO_-random decimal number between 0 and 1. I gave myself two helper functions: `randomUpTo(x)` which gives me a random whole number between 0 and x; and `chance(percent)` which essentially simulates a random dice roll or coin flip which returns `true` some percent of the time. Then, `pickCombo()` just needs to pick a random number between 1 and the length of `comboChoices` (i.e. `randomUpTo(comboChoices.length)`) and pick the `Combo` at that position in the list. To keep the UI display more randomized, the selected `Combo` will sometimes swap the order of its two items when displayed (i.e. if `chance(50)` returns true). To avoid duplicating a previously-chosen combination, the selected `Combo` gets removed from `comboChoices` and added to the user's history.
+
 ## Possible Improvements
+
+I attempted to somewhat order these starting with the most urgent or easy-to-do. 
+
+### 1. Enabling general use by anyone
+
+As of summer 2022 (the version used in class), the student-generated text data is still hard-coded into the web app. I won't always be the grad TA to push a new text document to the server, so there's some work to do in order for the instructor to easily use the combo generator in future semesters. I think I'll need to tweak some of my infrastructural choices, especially the .TXT file hack. 
+
+Ideally, the instructor would only have to send out one single link for the whole classroom activity. Not a Google doc link, then the link to the combo generator. Seems like this could be easily done by generating some sort of "session ID code" for each time the activity is run, which is then stored in a database and given a container for associated data. All of the student-generated data could then be stored directly in the database, in the session's container. This would also solve the convoluted process for populating the combo generator: convert the student data from one text document to another, manually double-check that all of the data is properly formatted, then parse the giant data blob. 
+
+A new procedure to handle separate sessions and take in student data also implies changes to the existing interface (or more likely, adding new interfaces). What those changes would _look_ like is saved for the next section. But on the back end, this might also mean that I should redo the tech stack to convert the tool from a fancy JQuery form to an actual progressive web app (PWA) built with an appropriate framework.
+
+### 2. Interface improvements
+
+From student feedback:
+- make the "swap" function a button for the user
+- making sure UI components don't jump around with different size `Item` cards because some terms/concepts have more text to display
+- actual instructions on the page
+
+NEW interfaces for general usage:
+- welcome interface for instructors
+  - password-protected? (if I'm still hosting the app, then I don't want random people using up my storage, so I would personally give send someone the designated "instructor role" password)
+  - starting a new session
+    - generate a session ID
+    - set an instructor password (so students can't change things about the session)
+    - setting the concept categories (like weekly topics in our class), the categories that students will be trying to make connections across
+    - assigning students to groups and/or assigning groups to categories
+    - a "start session" button
+  - continuing existing session
+- welcome interface for students
+  - entering session ID (if they're not coming from the pre-generated link)
+  - selecting which group they're in that session
+  - seeing their assigned topic OR choosing their topic (depending on instructor config)
+- in-session interface for instructors
+  - controlling if the session is in phase 1 of the activity (students inputting terms/concepts and definitions) or phase 2 (students making connections)
+- in-session interface for students 
+  - phase 1
+  - phase 2 (exists, described on this page)
+
+### 3. More interesting features/interactions
+
+### 4. Memory/storage efficiency
 
 ## References
 
 * https://stackoverflow.com/questions/4533018/how-to-read-a-text-file-from-server-using-javascript
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+* https://www.iflexion.com/blog/progressive-web-app-framework
