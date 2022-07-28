@@ -13,13 +13,13 @@ The loom pedals are a hardware peripheral interface for the TC2 digital Jacquard
 
 ### Table of Contents
 
-Section A: Project Fundamentals
+[Section A: Project Fundamentals](#section-a-project-fundamentals)
 
 1. Dependencies
 2. Installation and assembly
 3. Prerequisite skills for developers
 4. Open source disclosure (?)
-5. Weaving and TC2 basic knowledge
+5. Weaving, Jacquard looms, and TC2 basics
 
 Section B: System Components
 
@@ -48,3 +48,9 @@ V1 of the loom pedals was built in Fall 2019 by reimplementing Processing (Java)
 ## Acknowledgments
 
 These pedals would not have been possible without the initial work of Lea Albaugh, whose Summer 2019 experiments in underdetermined, improvisational weaving interactions on the TC2 are documented on [their site here](http://www.lea.zone/underdetermined_handweaving.html "Underdetermined Handweaving"). Thank you, also, to Tronrud for engineering such a nifty Jacquard loom for experimental weaving. And finally, thank you to our lab's loom -- Jean-Luc Jacquard. 
+
+## Section A: Project Fundamentals
+
+### Dependencies
+
+### Weaving, Jacquard looms, and TC2 basics

@@ -143,12 +143,13 @@ As of summer 2022 (the version used in class), the student-generated text data i
 
 Ideally, the instructor would only have to send out one single link for the whole classroom activity. Not a Google doc link, then the link to the combo generator. Seems like this could be easily done by generating some sort of "session ID code" for each time the activity is run, which is then stored in a database and given a container for associated data. All of the student-generated data could then be stored directly in the database, in the session's container. This would also solve the convoluted process for populating the combo generator: convert the student data from one text document to another, manually double-check that all of the data is properly formatted, then parse the giant data blob. 
 
-A new procedure to handle separate sessions and take in student data also implies changes to the existing interface (or more likely, adding new interfaces). What those changes would _look_ like is saved for the next section. But on the back end, this might also mean that I should redo the tech stack to convert the tool from a fancy JQuery form to an actual progressive web app (PWA) built with an appropriate framework.
+A new procedure to handle separate sessions and take in student data also implies changes to the existing interface (or more likely, adding new interfaces). What those changes would _look_ like is saved for the next section. But on the back end, this might also mean that I should redo the tech stack to convert the tool from an overly-fancy JQuery form to an actual progressive web app (PWA) built with an appropriate framework.
 
 ### 2. Interface improvements
 
 From student feedback:
 - make the "swap" function a button for the user
+- other functions that influence the combinations displayed, like focusing on a particular weekly topic
 - making sure UI components don't jump around with different size `Item` cards because some terms/concepts have more text to display
 - actual instructions on the page
 
