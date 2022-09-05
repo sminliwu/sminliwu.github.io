@@ -53,12 +53,13 @@ These pedals would not have been possible without the initial work of Lea Albaug
 
 I'm gonna force anyone engaging with this project to first learn how weaving works.
 
-### Weaving, Jacquard looms, and TC2 basics
+<details> <summary> ### Weaving, Jacquard looms, and TC2 basics </summary>
 
 Tronrud's TC2 is a digital Jacquard loom. Let's break that phrase down, starting with the "loom" part. A **loom** is a tool for weaving, which is a fiber craft that interlaces yarns to create cloth. 
 
 Quick disclaimer on language: there are many forms of weaving across cultures and materials, as well as a few different ways to define "yarn" or "fabric" or "cloth" or any other craft-related term. With things that have evolved through so much history that they are at once universal, yet diverse, there are bound to be exceptions or special cases of definitions. I'll be generalizing the most common forms of weaving in my experience, which may be western-/Euro-centric because I learned to weave in an English-speaking, American, digital setting -- not coincidentally, this type of weaving is also the most prevalent in industrial textiles.
 
+</details>
 <!-- add citations to craft books throughout -->
 
 #### Woven structures
@@ -87,7 +88,7 @@ We can make weaving on our loom faster by adding a way to lift multiple warps at
 
 ![An illustration of a loom with a single shaft added, with heddles controlling every other warp.](./2_heddles.png)
 
-Since each heddle can only be attached to one shaft, a loom with multiple shafts will create a different shed for each one lifted. Most of these looms are categorized as **frame looms** (see photos), typically found in 2-shaft, 4-shaft, 8-shaft, and 16-shaft configurations.
+Since each heddle can only be attached to one shaft, a loom with multiple shafts will create a different shed for each one lifted. Most of these looms are categorized as **frame looms** (see photos), typically found in 2-shaft, 4-shaft, 8-shaft, and 16-shaft configurations. Drafts for frame looms will have a separate section, the **threading**, that indicates which shaft each warp is threaded on.
 
 \[photos\]
 
@@ -97,6 +98,22 @@ However, cloth woven on a shaft loom will usually make use of patterns that are 
 
 ![An illustration of a loom with two shafts that lift the same shed as the previous illustration. The two shafts have been tied to a treadle that lifts both of them.](./3_treadle.png)
 
-### Dependencies
+In the configuration described thus far, the threading is more or less fixed on the loom, until the weaver uses up all the warp and rethreads. It would be pretty troublesome to move warps between shafts, unless you hack up the heddles so they're transferable. However, unlike the heddles and threading, the shafts and treadles are easily reconfigured by changing which shafts are tied to a particular treadle. Fittingly, the combinations of shafts that are controlled by each treadle is called the **tie-up**, which is also a section of a frame loom draft. 
+
+You'll notice that the frame looms displayed above each have an array of treadles. Each treadle can open a different shed according to the tie-up, and the weaver can now achieve a pattern by following a sequence of treadle steps -- the **treadling** for the draft. This represents the final section we need to complete the four-section draft of a frame loom. For completion's sake, the first section of the draft that we discussed above is the **drawdown**. \[add example draft\]
+
+Alright, we've built all the mechanisms for a frame loom, and this level of complexity has been sufficient for much of weaving history. One threading can produce many different patterns, as we can easily change the tie-up and treadling sequence. Today, many handweavers work with 4-shaft, 6-treadle frame looms, as they already offer a large selection of possible designs without overwhelming the weaver with complex mechanics. Yet some people still needed finer control to make more complex, figured designs. Enter the Jacquard loom.
+
+A Jacquard loom is the result of replacing the shafts of a loom with a mechanism that can control each heddle individually, rather than lifting warps in fixed sets. Effectively, this is like putting each warp on its own shaft -- that would be an absolutely abominable machine, so good thing Mr. Joseph Marie Jacquard came up with this new way of automating warp control. Instead of tie-ups and treadling, Jacquard looms create patterns using punch cards, where the drawdown of the draft is directly encoded in a series of punched holes. Each row of holes corresponds to a row in the draft. In a simplified representation of the Jacquard mechanism, we will assume that holes correspond to black squares on a draft, while spaces with no hole (solid card) correspond to a white square. 
+
+## Section B: System Components
+
+Each component of the loom pedals system is in its own repository. These sections are also roughly organized in the chronological order in which I built each component.
+
+### Hardware
+
+The loom pedals I describe represent V2 of the system, as V1 was a proof-of-concept project (link) 
+  i. Circuit design
+  ii. Enclosure design
 
 <!-- fill in -->
