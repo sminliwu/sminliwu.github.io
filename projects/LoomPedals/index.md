@@ -9,7 +9,10 @@ season: Fall 2021 / Spring 2022
 
 The loom pedals are a hardware peripheral interface for the TC2 digital Jacquard loom by Tronrud Engineering. They have been designed as a modular system of foot pedals, similar to guitar effects pedals used by musicians, which are connected via a Raspberry Pi to a web-based open source weaving software, AdaCAD.
 
-### [GitHub repository](https://github.com/UnstableDesign/Loom-Pedals/)
+### GitHub repositories
+* [Hardware](https://github.com/UnstableDesign/Loom-Pedals-Hardware/)
+* [Raspberry Pi Software](https://github.com/UnstableDesign/Loom-Pedals-Raspberry-Pi)
+* [AdaCAD Extension](https://github.com/UnstableDesign/Loom-Pedals-AdaCAD)
 
 ### Table of Contents
 
@@ -49,11 +52,11 @@ V1 of the loom pedals was built in Fall 2019 by reimplementing Processing (Java)
 
 These pedals would not have been possible without the initial work of Lea Albaugh, whose Summer 2019 experiments in underdetermined, improvisational weaving interactions on the TC2 are documented on [their site here](http://www.lea.zone/underdetermined_handweaving.html "Underdetermined Handweaving"). Thank you, also, to Tronrud for engineering such a nifty Jacquard loom for experimental weaving. And finally, thank you to our lab's loom -- Jean-Luc Jacquard. 
 
-## Section A: Project Fundamentals
+<details><summary><h2>Section A: Project Fundamentals</h2></summary>
 
 I'm gonna force anyone engaging with this project to first learn how weaving works.
 
-<details> <summary> ### Weaving, Jacquard looms, and TC2 basics </summary>
+<details><summary><h3>Weaving, Jacquard looms, and TC2 basics</h3></summary>
 
 Tronrud's TC2 is a digital Jacquard loom. Let's break that phrase down, starting with the "loom" part. A **loom** is a tool for weaving, which is a fiber craft that interlaces yarns to create cloth. 
 
@@ -82,7 +85,7 @@ I didn't mention what tools were used to make the woven structures in the last s
 
 ![An illustration of a simple loom: a rectangular frame with multiple strands of warp yarn crossing it in parallel.](./1_tapestry.png)
 
-To weave, you can use a needle to manually go over and under the warps, or simply manipulate the weft with your fingers. Many **tapestry looms** (see photos) /[add photos/] simply use these components.
+To weave, you can use a needle to manually go over and under the warps, or simply manipulate the weft with your fingers. Many **tapestry looms** (see photos) \[add photos\] simply use these components.
 
 We can make weaving on our loom faster by adding a way to lift multiple warps at a time, e.g. by tying loops around each set of yarns that would lift in one row of the pattern, then tying these loops to a single rod, we can lift all of the yarns that the weft should go under in that row. A **shed** is the gap that forms between the raised warps and lower warps. These loops that raise and lower warp yarns are **heddles**, which can be made of wire, string, or cut out of wood. A set of heddles that lift together form a **frame** or **shaft**, as they are all attached to a common part. 
 
@@ -105,6 +108,7 @@ You'll notice that the frame looms displayed above each have an array of treadle
 Alright, we've built all the mechanisms for a frame loom, and this level of complexity has been sufficient for much of weaving history. One threading can produce many different patterns, as we can easily change the tie-up and treadling sequence. Today, many handweavers work with 4-shaft, 6-treadle frame looms, as they already offer a large selection of possible designs without overwhelming the weaver with complex mechanics. Yet some people still needed finer control to make more complex, figured designs. Enter the Jacquard loom.
 
 A Jacquard loom is the result of replacing the shafts of a loom with a mechanism that can control each heddle individually, rather than lifting warps in fixed sets. Effectively, this is like putting each warp on its own shaft -- that would be an absolutely abominable machine, so good thing Mr. Joseph Marie Jacquard came up with this new way of automating warp control. Instead of tie-ups and treadling, Jacquard looms create patterns using punch cards, where the drawdown of the draft is directly encoded in a series of punched holes. Each row of holes corresponds to a row in the draft. In a simplified representation of the Jacquard mechanism, we will assume that holes correspond to black squares on a draft, while spaces with no hole (solid card) correspond to a white square. 
+</details>
 
 ## Section B: System Components
 
