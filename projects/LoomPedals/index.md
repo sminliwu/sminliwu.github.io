@@ -18,7 +18,7 @@ The loom pedals are a hardware peripheral interface for the TC2 digital Jacquard
 
 [Section A: Project Fundamentals](#section-a-project-fundamentals)
 
-[1. Weaving, Jacquard looms, and TC2 basics](#looms-jacquard-frame-and-other-types)
+1. [Weaving, Jacquard looms, and TC2 basics](#looms-jacquard-frame-and-other-types)
 2. Dependencies
 3. Installation and assembly
 4. Prerequisite skills for developers
@@ -52,11 +52,19 @@ V1 of the loom pedals was built in Fall 2019 by reimplementing Processing (Java)
 
 These pedals would not have been possible without the initial work of Lea Albaugh, whose Summer 2019 experiments in underdetermined, improvisational weaving interactions on the TC2 are documented on [their site here](http://www.lea.zone/underdetermined_handweaving.html "Underdetermined Handweaving"). Thank you, also, to Tronrud for engineering such a nifty Jacquard loom for experimental weaving. And finally, thank you to our lab's loom -- Jean-Luc Jacquard. 
 
-<details><summary><h2>Section A: Project Fundamentals</h2></summary>
+<details><summary>
+
+## Section A: Project Fundamentals
+
+</summary>
 
 I'm gonna force anyone engaging with this project to first learn how weaving works.
 
-<details><summary><h3>Weaving, Jacquard looms, and TC2 basics</h3></summary>
+<details><summary>
+
+### Weaving, Jacquard looms, and TC2 basics
+
+</summary>
 
 Tronrud's TC2 is a digital Jacquard loom. Let's break that phrase down, starting with the "loom" part. A **loom** is a tool for weaving, which is a fiber craft that interlaces yarns to create cloth. 
 
@@ -65,7 +73,11 @@ Quick disclaimer on language: there are many forms of weaving across cultures an
 </details>
 <!-- add citations to craft books throughout -->
 
+<details><summary>
+
 #### Woven structures
+
+</summary>
 
 \[_citations to craft books throughout_\] 
 
@@ -77,7 +89,13 @@ There are many different ways to weave these sequences of overs-and-unders and t
 
 We can represent these patterns as **drafts**, a standard grid-based notation for woven structures. In a draft, a white square represents where the weft is over the warp, while a black square represents where the warp is on top. So a row of squares represents a single pass of the weft, while a column represents how an individual warp behaves during weaving.
 
+</details>
+
+<details><summary>
+
 #### Looms: Jacquard, frame, and other types
+
+</summary>
 
 \[make ILLUSTRATIONS\]
 
@@ -108,6 +126,9 @@ You'll notice that the frame looms displayed above each have an array of treadle
 Alright, we've built all the mechanisms for a frame loom, and this level of complexity has been sufficient for much of weaving history. One threading can produce many different patterns, as we can easily change the tie-up and treadling sequence. Today, many handweavers work with 4-shaft, 6-treadle frame looms, as they already offer a large selection of possible designs without overwhelming the weaver with complex mechanics. Yet some people still needed finer control to make more complex, figured designs. Enter the Jacquard loom.
 
 A Jacquard loom is the result of replacing the shafts of a loom with a mechanism that can control each heddle individually, rather than lifting warps in fixed sets. Effectively, this is like putting each warp on its own shaft -- that would be an absolutely abominable machine, so good thing Mr. Joseph Marie Jacquard came up with this new way of automating warp control. Instead of tie-ups and treadling, Jacquard looms create patterns using punch cards, where the drawdown of the draft is directly encoded in a series of punched holes. Each row of holes corresponds to a row in the draft. In a simplified representation of the Jacquard mechanism, we will assume that holes correspond to black squares on a draft, while spaces with no hole (solid card) correspond to a white square. 
+
+</details>
+
 </details>
 
 ## Section B: System Components
@@ -117,6 +138,7 @@ Each component of the loom pedals system is in its own repository. These section
 ### Hardware
 
 The loom pedals I describe represent V2 of the system, as V1 was a proof-of-concept project (link) 
+
   i. Circuit design
   ii. Enclosure design
 
