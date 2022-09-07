@@ -52,7 +52,7 @@ V1 of the loom pedals was built in Fall 2019 by reimplementing Processing (Java)
 
 These pedals would not have been possible without the initial work of Lea Albaugh, whose Summer 2019 experiments in underdetermined, improvisational weaving interactions on the TC2 are documented on [their site here](http://www.lea.zone/underdetermined_handweaving.html "Underdetermined Handweaving"). Thank you, also, to Tronrud for engineering such a nifty Jacquard loom for experimental weaving. And finally, thank you to our lab's loom -- Jean-Luc Jacquard. 
 
-<details><summary>
+<details open><summary>
 
 ## Section A: Project Fundamentals
 
@@ -137,7 +137,7 @@ Each component of the loom pedals system is in its own repository. These section
 
 ### Hardware
 
-The loom pedals I describe represent V2 of the system, as V1 was a proof-of-concept project (link) 
+The loom pedals I describe represent "V2" of the system. V1 was the first time I implemented the combination of pedals, Raspberry Pi, and TC2 for a class project.
 
   i. Circuit design
   ii. Enclosure design
