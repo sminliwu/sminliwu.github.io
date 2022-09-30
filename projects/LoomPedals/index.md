@@ -52,32 +52,20 @@ V1 of the loom pedals was built in Fall 2019 by reimplementing Processing (Java)
 
 These pedals would not have been possible without the initial work of Lea Albaugh, whose Summer 2019 experiments in underdetermined, improvisational weaving interactions on the TC2 are documented on [their site here](http://www.lea.zone/underdetermined_handweaving.html "Underdetermined Handweaving"). Thank you, also, to Tronrud for engineering such a nifty Jacquard loom for experimental weaving. And finally, thank you to our lab's loom -- Jean-Luc Jacquard. 
 
-<details open><summary>
-
 ## Section A: Project Fundamentals
-
-</summary>
 
 I'm gonna force anyone engaging with this project to first learn how weaving works.
 
-<details><summary>
-
 ### Weaving, Jacquard looms, and TC2 basics
-
-</summary>
 
 Tronrud's TC2 is a digital Jacquard loom. Let's break that phrase down, starting with the "loom" part. A **loom** is a tool for weaving, which is a fiber craft that interlaces yarns to create cloth. 
 
 Quick disclaimer on language: there are many forms of weaving across cultures and materials, as well as a few different ways to define "yarn" or "fabric" or "cloth" or any other craft-related term. With things that have evolved through so much history that they are at once universal, yet diverse, there are bound to be exceptions or special cases of definitions. I'll be generalizing the most common forms of weaving in my experience, which may be western-/Euro-centric because I learned to weave in an English-speaking, American, digital setting -- not coincidentally, this type of weaving is also the most prevalent in industrial textiles.
 
-</details>
 <!-- add citations to craft books throughout -->
 
-<details><summary>
 
 #### Woven structures
-
-</summary>
 
 \[_citations to craft books throughout_\] 
 
@@ -89,13 +77,8 @@ There are many different ways to weave these sequences of overs-and-unders and t
 
 We can represent these patterns as **drafts**, a standard grid-based notation for woven structures. In a draft, a white square represents where the weft is over the warp, while a black square represents where the warp is on top. So a row of squares represents a single pass of the weft, while a column represents how an individual warp behaves during weaving.
 
-</details>
-
-<details><summary>
-
 #### Looms: Jacquard, frame, and other types
 
-</summary>
 
 \[make ILLUSTRATIONS\]
 
@@ -127,14 +110,11 @@ Alright, we've built all the mechanisms for a frame loom, and this level of comp
 
 A Jacquard loom is the result of replacing the shafts of a loom with a mechanism that can control each heddle individually, rather than lifting warps in fixed sets. Effectively, this is like putting each warp on its own shaft -- that would be an absolutely abominable machine, so good thing Mr. Joseph Marie Jacquard came up with this new way of automating warp control. Instead of tie-ups and treadling, Jacquard looms create patterns using punch cards, where the drawdown of the draft is directly encoded in a series of punched holes. Each row of holes corresponds to a row in the draft. In a simplified representation of the Jacquard mechanism, we will assume that holes correspond to black squares on a draft, while spaces with no hole (solid card) correspond to a white square. 
 
-</details>
 <!-- end loom types subsection -->
 
 #### The Thread Controller 2 (TC2)
 
 The TC2, which stands for "Thread Controller 2" to appropriately set itself apart from the TC1, is a modern implementation of a Jacquard loom. In today's terms, "Jacquard" is a category of loom, defined by having some mechanism (the Jacquard mechanism) that can control warps individually via two-dimensional binary data. The TC2 is a "digital" Jacquard loom in the sense that it uses many modern computing technologies to implement a Jacquard mechanism. Rather than a physical punch card, it reads the draft from a bitmap image file. Additionally, the TC2 receives this bitmap row-by-row via a WiFi connection hosted by another computer.
-
-</details>
 
 ### Dependencies
 
