@@ -128,8 +128,24 @@ Alright, we've built all the mechanisms for a frame loom, and this level of comp
 A Jacquard loom is the result of replacing the shafts of a loom with a mechanism that can control each heddle individually, rather than lifting warps in fixed sets. Effectively, this is like putting each warp on its own shaft -- that would be an absolutely abominable machine, so good thing Mr. Joseph Marie Jacquard came up with this new way of automating warp control. Instead of tie-ups and treadling, Jacquard looms create patterns using punch cards, where the drawdown of the draft is directly encoded in a series of punched holes. Each row of holes corresponds to a row in the draft. In a simplified representation of the Jacquard mechanism, we will assume that holes correspond to black squares on a draft, while spaces with no hole (solid card) correspond to a white square. 
 
 </details>
+<!-- end loom types subsection -->
+
+#### The Thread Controller 2 (TC2)
+
+The TC2, which stands for "Thread Controller 2" to appropriately set itself apart from the TC1, is a modern implementation of a Jacquard loom. In today's terms, "Jacquard" is a category of loom, defined by having some mechanism (the Jacquard mechanism) that can control warps individually via two-dimensional binary data. The TC2 is a "digital" Jacquard loom in the sense that it uses many modern computing technologies to implement a Jacquard mechanism. Rather than a physical punch card, it reads the draft from a bitmap image file. Additionally, the TC2 receives this bitmap row-by-row via a WiFi connection hosted by another computer.
 
 </details>
+
+### Dependencies
+
+This project uses:
+
+* Raspberry Pi with Raspbian
+* Firebase Realtime Database and Hosting
+* Node.JS
+  * rpio
+  * firebase/database
+* Angular.JS
 
 ## Section B: System Components
 
