@@ -1,19 +1,19 @@
 ---
 - LoomPedals: 
   name: Loom Pedals
-  link: "/projects/LoomPedals"
+  link: /projects/LoomPedals
   tag: project-LoomPedals
 - ComboGen: 
   name: Random Combo Generator
-  link: "/projects/ComboGen"
+  link: /projects/ComboGen
   tag: project-ComboGen
 - ChickenCoop: 
   name: Chicken Coop Management
-  link: "/projects/ChickenCoop"
+  link: /projects/ChickenCoop
   tag: project-ChickenCoop
 - OvershotGen: 
   name: Flowing Curves Overshot Generator
-  link: "/projects/OvershotGen"
+  link: /projects/OvershotGen
   tag: project-OvershotGen
 - OzoneVest: 
   name: The Ozone Safety Vest
@@ -21,13 +21,13 @@
   tag: project-OzoneVest
 - Unfabricate: 
   name: Unfabricate
-  link: "/projects/Unfabricate"
+  link: /projects/Unfabricate
   tag: project-Unfabricate
 - ETextileMultimeter: 
   name: E-Textiles Web Multimeter
-  link: "/projects/ETextileMultimeter"
+  link: /projects/ETextileMultimeter
   tag: project-ETextileMultimeter
 - BTfabric: 
   name: Bluetooth-Fabric Controller
-  link: "/projects/BTfabric"
+  link: /projects/BTfabric
   tag: project-BTfabric
