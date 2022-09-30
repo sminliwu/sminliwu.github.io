@@ -25,4 +25,5 @@ paginate: 8
 paginate_path: "/blog/page:num/"
 markdown: CommonMarkGhPages
 commonmark:
-  options: "UNSAFE"
+  options: ["UNSAFE", "SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table"]
