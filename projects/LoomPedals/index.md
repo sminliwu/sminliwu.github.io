@@ -26,16 +26,17 @@ The loom pedals are a hardware peripheral interface for the TC2 digital Jacquard
 
 Section B: System Components
 
-1. Hardware
-  i. Circuit design
-  ii. Enclosure design
-2. Raspberry Pi software
-  i. Pedals driver
-  ii. TC2 connection *(not yet public)*
-  iii. Database connection
-3. AdaCAD integration
-  i. Services
-  ii. Component
+1. Overview
+2. Hardware
+  1. Circuit design
+  2. Enclosure design
+3. Raspberry Pi software
+  1. Pedals driver
+  2. TC2 connection *(not yet public)*
+  3. Database connection
+4. AdaCAD integration
+  1. Services
+  2. Component
 
 Section C: Current and Future Work
 
@@ -69,18 +70,15 @@ Quick disclaimer on language: there are many forms of weaving across cultures an
 
 \[_citations to craft books throughout_\] 
 
-Weaving mainly interlaces two sets of yarn in perpendicular directions. \[picture of plainweave\] Conventionally, if we take one set to be vertical and one to be horizontal, the vertical set of yarns is called the **"warp"** and the horizontal set is the **"weft"**. (A catchy saying is "weft goes from left to right") \[source?\] On many looms, the warp is tilted away from the weaver, or lying flat, so the "vertical" direction is rather towards/away from the weaver rather than up/down. The warp is first set up on the loom ("warping" the loom). Then, the weft is inserted perpendicular to the warp, travelling over and under to form a row of weaving.
+Weaving mainly interlaces two sets of yarn in perpendicular directions. Conventionally, if we take one set to be vertical and one to be horizontal, the vertical set of yarns is called the **"warp"** and the horizontal set is the **"weft"**. (A catchy saying is "weft goes from left to right") \[source?\] On many looms, the warp is tilted away from the weaver, or lying flat, so the "vertical" direction is rather towards/away from the weaver rather than up/down. The warp is first set up on the loom ("warping" the loom). Then, the weft is inserted perpendicular to the warp, travelling over and under to form a row of weaving.
 
-\[make ILLUSTRATIONS\]
+\[take photos of cloth\]
 
 There are many different ways to weave these sequences of overs-and-unders and thus achieve a variety of patterns and structures in the cloth. The simplest structure is **plainweave**, also called "tabby". To make plainweave, the weft first goes over one warp, under one warp, over one, under one, alternating over and under through the whole row. In the next row, the weft will go underneath a warp if it had gone over in the previous row, and over a warp if it had gone under previously. The weaver alternates between these two rows as many times as needed. You can imagine that if the weft "goes over two, under one" or any other pattern of overs-and-unders, the weaving would produce a different structure.
 
 We can represent these patterns as **drafts**, a standard grid-based notation for woven structures. In a draft, a white square represents where the weft is over the warp, while a black square represents where the warp is on top. So a row of squares represents a single pass of the weft, while a column represents how an individual warp behaves during weaving.
 
 #### Looms: Jacquard, frame, and other types
-
-
-\[make ILLUSTRATIONS\]
 
 I didn't mention what tools were used to make the woven structures in the last section, because many types of looms can be used to achieve the same structure. \[cite Albers\] To build up to what a "Jacquard" loom is, we can start with the most fundamental loom, which is a rectangular frame that holds the warp yarns in parallel. If you're following along anyway, go grab a picture frame/hardcover book/two ladder rungs and wrap some yarn around the item, leaving some space between each wrap. Bam, loom. 
 
@@ -94,7 +92,7 @@ We can make weaving on our loom faster by adding a way to lift multiple warps at
 
 Since each heddle can only be attached to one shaft, a loom with multiple shafts will create a different shed for each one lifted. Most of these looms are categorized as **frame looms** (see photos), typically found in 2-shaft, 4-shaft, 8-shaft, and 16-shaft configurations. Drafts for frame looms will have a separate section, the **threading**, that indicates which shaft each warp is threaded on.
 
-\[photos\]
+\[photos of real looms\]
 
 As an aside, I shouldn't ignore heddles on other types of looms, as these variations show how useful the mechanism is. The illustrated heddle shaft most closely resembles a set of string heddles on backstrap looms. \[photos\]
 
@@ -116,6 +114,8 @@ A Jacquard loom is the result of replacing the shafts of a loom with a mechanism
 
 The TC2, which stands for "Thread Controller 2" to appropriately set itself apart from the TC1, is a modern implementation of a Jacquard loom. In today's terms, "Jacquard" is a category of loom, defined by having some mechanism (the Jacquard mechanism) that can control warps individually via two-dimensional binary data. The TC2 is a "digital" Jacquard loom in the sense that it uses many modern computing technologies to implement a Jacquard mechanism. Rather than a physical punch card, it reads the draft from a bitmap image file. Additionally, the TC2 receives this bitmap row-by-row via a WiFi connection hosted by another computer.
 
+Having gone over the textile technologies that this project integrates, let's go to the electronics and silicon-based computing tech.
+
 ### Dependencies
 
 This project uses:
@@ -131,11 +131,29 @@ This project uses:
 
 Each component of the loom pedals system is in its own repository. These sections are also roughly organized in the chronological order in which I built each component.
 
+### Overview
+
+![image description TODO](./sysConnections.png)
+
 ### Hardware
 
-The loom pedals I describe represent "V2" of the system. V1 was the first time I implemented the combination of pedals, Raspberry Pi, and TC2 for a class project.
+The loom pedals I describe represent "V2" of the system. V1 was the first time I implemented the combination of pedals, Raspberry Pi, and TC2 for a class project, which you can find \[on its own project page.\]
 
-  i. Circuit design
-  ii. Enclosure design
+#### Circuit design
+
+The pedals are designed to be modular and interchangeable, linking up in series, with the first pedal directly connected to the Pi.
+
+![image description TODO](./hardware/connect.jpg)
+
+![image description TODO](./hardware/pedalCircuitLogic.png)
+
+The circuitry in the pedals shown are implemented with off-the-shelf digital logic IC's and hand-soldering to a perfboard, but a PCB is in the works, because it's probably not good for me to inhale all of these fumes.
+
+#### Enclosure design
+
+The enclosure's CAD files are on GitHub. Many many thanks to Lily Gabriel for modelling and 3D-printing the enclosures much faster than I would have.
+
+![image description TODO](./hardware/pedal-enclosure.jpg)
+
 
 <!-- fill in -->
