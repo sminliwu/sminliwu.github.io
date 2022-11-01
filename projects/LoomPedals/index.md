@@ -32,8 +32,9 @@ Section B: System Components
   2. Enclosure design
 3. Raspberry Pi software
   1. Pedals driver
-  2. TC2 connection *(not yet public)*
-  3. Database connection
+  2. Virtual pedals
+  3. TC2 connection *(not yet public)*
+  4. Database connection
 4. AdaCAD integration
   1. Services
   2. Component
@@ -154,6 +155,11 @@ The circuitry in the pedals shown are implemented with off-the-shelf digital log
 The enclosure's CAD files are on GitHub. Many many thanks to Lily Gabriel for modelling and 3D-printing the enclosures much faster than I would have.
 
 ![image description TODO](./hardware/pedal-enclosure.jpg)
+
+
+### Raspberry Pi software
+
+### AdaCAD integration: design software interface
 
 
 <!-- fill in -->
