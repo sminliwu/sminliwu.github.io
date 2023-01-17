@@ -55,7 +55,7 @@ V1 of the loom pedals was built in Fall 2019 by reimplementing Processing (Java)
 
 These pedals would not have been possible without the initial work of Lea Albaugh, whose Summer 2019 experiments in underdetermined, improvisational weaving interactions on the TC2 are documented on [their site here](http://www.lea.zone/underdetermined_handweaving.html "Underdetermined Handweaving"). Thank you, also, to Tronrud for engineering such a nifty Jacquard loom for experimental weaving. And finally, thank you to our lab's loom -- Jean-Luc Jacquard. 
 
-{% include_relative sections/a_fundamentals.md}
+{% include_relative sections/a_fundamentals.md %}
 
 ## Section B: System Components
 
