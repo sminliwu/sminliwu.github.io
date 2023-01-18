@@ -7,12 +7,14 @@ season: Fall 2021 / Spring 2022
 
 ## Project Overview
 
-The loom pedals are a hardware peripheral interface for the TC2 digital Jacquard loom by Tronrud Engineering. They have been designed as a modular system of foot pedals, similar to guitar effects pedals used by musicians, which are connected via a Raspberry Pi to a web-based open source weaving software, AdaCAD.
+The Loom Pedals are a hardware peripheral interface for the TC2 digital Jacquard loom by Tronrud Engineering. They have been designed as a modular system of foot pedals, similar to guitar effects pedals used by musicians, which are connected via a Raspberry Pi to a web-based open source weaving software, AdaCAD.
 
 ### GitHub repositories
 * [Hardware](https://github.com/UnstableDesign/Loom-Pedals-Hardware/)
 * [Driver Software](https://github.com/UnstableDesign/Loom-Pedals-Raspberry-Pi)
 * [AdaCAD Extension](https://github.com/UnstableDesign/Loom-Pedals-AdaCAD)
+
+This page currently focuses on describing and documenting the Loom Pedals system as it evolves. We are also working on a [developer's guide](sections/dev-guide.md) to support any interested makers.
 
 ### Table of Contents
 
@@ -28,17 +30,17 @@ The loom pedals are a hardware peripheral interface for the TC2 digital Jacquard
 
 1. Overview
 2. Hardware
-  1. Circuit design
-  2. Enclosure design
+  * Circuit design
+  * Enclosure design
 3. Driver software
-  1. File organization
-  2. Physical pedals
-  3. Virtual pedals
-  4. TC2 connection *(not yet public)*
-  5. Database connection
+  * File organization
+  * Physical pedals
+  * Virtual pedals
+  * TC2 connection *(not yet public)*
+  * Database connection
 4. AdaCAD integration
-  1. Services
-  2. Component
+  * Services
+  * Component
 
 Section C: Current and Future Work
 
