@@ -38,13 +38,17 @@ As mentioned previously, AdaCAD features that interface with the pedals and TC2 
 
 The `PlayerComponent` is divided into two subcomponents.
 
-#### Weaving State subcomponent
+##### Weaving State subcomponent
 
 This component provides the user with basic status information on the TC2 (e.g. whether or not one is connected, whether or not the TC2 is actively weaving).
 
-#### Operation Sequencer subcomponent
+##### Operation Sequencer subcomponent
 
 This component allows the user to reconfigure which Operations are triggered by pedal inputs, define custom chains of Operations (Chain Operations), and the order in which the Sequencer will page through Operations/Chain Ops.
+
+#### Helpful Resources
+
+* 
 
 ### Hardware
 
