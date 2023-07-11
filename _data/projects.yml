@@ -1,4 +1,8 @@
 ---
+- PlaidGen:
+  name: Woven Plaid Generator
+  link: /projects/PlaidGen
+  tag: project-PlaidGen
 - LoomPedals: 
   name: Loom Pedals
   link: /projects/LoomPedals

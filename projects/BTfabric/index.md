@@ -2,6 +2,7 @@
 layout: project
 title: Bluetooth-Fabric Controller
 season: Spring 2019
+tags: electronics pgtype-project
 
 ---
 ## Concept
@@ -117,3 +118,7 @@ The Bluetooth HID profile is, in fact, a wrapper to the USB HID profile. The HID
 * [RN-42 user's guide](https://cdn.sparkfun.com/datasheets/Wireless/Bluetooth/bluetooth_cr_UG-v1.0r.pdf)
 * [Bluetooth HID user's guide by RN](https://cdn.sparkfun.com/datasheets/Wireless/Bluetooth/RN-HID-User-Guide-v1.0r.pdf)
 * [USB Explained](https://www.amazon.com/USB-Explained-Steven-McDowell/dp/013081153X) by McDowell & Seyer, a reference book for the specifics of USB connectivity and several other communication standards
+
+## Obsidian Links
+
+[[electronics]] [[illustration]] [[smart-textiles]]

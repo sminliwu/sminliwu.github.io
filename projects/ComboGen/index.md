@@ -10,6 +10,12 @@ season: Spring 2022
 
 A simple web app that I made as a classroom tool, which helped students generate novel connections between concepts from different course topics. Because the instructor (for whom I was the TA) and I couldn't find a tool that did exactly what we wanted, and I decided it was easier for me to code my own than to continue looking for one/a few to hack for our purposes.
 
+The main ingredients:
+* JavaScript (with JQuery)
+* HTML/CSS
+* .TXT file data
+* Firebase Hosting
+
 ## Instructional Use
 
 A detailed account of how this tool was used during our class sessions, and further context on how it served the teaching goals for the course.
@@ -113,6 +119,8 @@ The first open question I had to solve was, "How do I get a .txt file into JavaS
 
 Next, once the .TXT had been loaded, the code had to parse its contents to populate the app with the students' responses, and to properly generate random combinations of these responses. The _careful_ formatting from Part 1 of the activity was crucial here; my not-so-smart code needed the weekly topic headings, key terms, and their definitions to all be consistently separated and ordered, or else the displayed data would be unusable. The longest function in my code (30 lines compared to 20 or less for the others), `parseData()`, handles this logic, and you can find a much more thorough explanation in the [code walkthrough](./code-walkthrough).
 
+<!-- [[projects/ComboGen/code-walkthrough/index|index]]-->
+
 ### Helper Classes: Item and Combo
 
 To structure the data once it was parsed, I created two classes that represented the main units of the activity: `Item` (a key term) and `Combo` (an associated pair of `Items`).
@@ -182,3 +190,7 @@ NEW interfaces for general usage:
 * https://stackoverflow.com/questions/4533018/how-to-read-a-text-file-from-server-using-javascript
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 * https://www.iflexion.com/blog/progressive-web-app-framework
+
+## Obsidian Links
+
+[[programming]]

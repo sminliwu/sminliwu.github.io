@@ -19,3 +19,6 @@ This project started as just a quick tool I hacked to help me design the Ozone S
 * [Article on creating flowing curves in overshot - Bonnie Inouye](http://www.weavezine.com/content/flowing-curves-part-1-overshot-and-weaving-overshot.html) - how I got started with the improvisational aspect of overshot.
 * [Handweaver's Pattern Directory - Anne Dixon](https://woolery.com/handweavers-pattern-directory.html) - where I got the original "leaf" overshot draft that started this all.
 * The [Processing](https://processing.org/) Foundation and [p5.js](https://p5js.org/)
+
+## Obsidian Links
+[[programming]] [[weaving]] [[projects]]

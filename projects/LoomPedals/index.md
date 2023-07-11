@@ -122,3 +122,6 @@ The Loom Pedals system can be used without any of the aforementioned hardware (R
 See 
 
 <!-- fill in -->
+
+## Obsidian Links
+	[[a_fundamentals]] [[electronics]] [[programming]] 
