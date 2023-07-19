@@ -9,4 +9,4 @@ season: Fall 2023
 A P5.js sketch for generating woven plaid drafts. Try it out at [https://sminliwu.github.io/Woven-Plaid-Generator].
 
 ## Obsidian Links
-[[programming]] [[weaving]] [[projects]]
+[[programming]] [[weaving]] [[projects]] #pgtype-project 

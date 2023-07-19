@@ -22,3 +22,4 @@ This project started as just a quick tool I hacked to help me design the Ozone S
 
 ## Obsidian Links
 [[programming]] [[weaving]] [[projects]]
+#pgtype-project 

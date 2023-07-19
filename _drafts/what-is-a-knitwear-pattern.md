@@ -31,3 +31,5 @@ However, tutoring is also a service I've performed. Unlike selling patterns, I o
 One more way I could see patterns is as a space that the designer is providing access to. Or perhaps, the pattern is an access point to the designer's space.
 
 Going purely off of what I remember from high school, all of these things -- commodities, services, spaces -- are subject to supply and demand
+
+[[knitwear-design]] [[writing]]

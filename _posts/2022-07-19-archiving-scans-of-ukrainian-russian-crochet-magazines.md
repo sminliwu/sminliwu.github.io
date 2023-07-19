@@ -21,3 +21,5 @@ Following the links to the pins' sources mostly took me to Russian-language page
 You can find the scans that I've saved here: \[LINK\]
 
 Not sure if it's worth my time to try to find ALL of the Duplet issues that have been scanned, but it sounds like a fun challenge!
+
+[[crochet]] #visual-design

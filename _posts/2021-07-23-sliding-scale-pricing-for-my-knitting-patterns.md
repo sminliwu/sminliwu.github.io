@@ -37,3 +37,5 @@ To **lower** the base price to a level accessible to you, click "Buy Now" or "Ad
 In the future, I hope to perhaps offer free copies of my patterns, funded by people who bought patterns at higher than the base price, and maybe Patreon (if I restart that), as well as other sources of funds available to me. I'm not really sure how this will work yet. The major open questions in my head are how many patterns can be offered given some amount of funding, how to distribute the patterns fairly (I would prioritize BIPOC + queer/trans + disabled + intersectionally marginalized folks), and how to make sure the system is sustainable.
 
 I don't have comments set up for this blog at this moment, but if you have thoughts or requests for what you'd like to see from me, feel free to drop me an email at pipernellart@gmail.com.
+
+[[knitting]] [[knitwear-design]]

@@ -30,3 +30,5 @@ The ESP connects to our home wi-fi, looks up sunrise/sunset times using [sunrise
 ## Version Notes
 
 Honestly, given how buggy this first iteration was, it's probably bad development to even call it a "version" but all of the pieces were there! The door was only programmed to open and close on fixed time intervals (10 seconds), which was a completely arbitrary length of time. I ran it once, then realized that in order to change the motor time interval, I would have to run out and reprogram the whole thing anyway. So total system overhaul after that test run to make adjustability a key feature, not just for my debugging/developing purposes, but also to adapt to physical changes in the environment or changing human schedules/habits.
+
+[[projects/ChickenCoop/index|index]]

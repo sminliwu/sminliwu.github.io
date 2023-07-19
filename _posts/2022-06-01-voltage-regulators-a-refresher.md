@@ -57,3 +57,5 @@ Here, having two holes per connection point came in handy again, as I could sold
 And hot glue to insulate the whole thing, for maximum jank.
 
 ![](/assets/img/voltReg/11_insulate.jpg)
+
+[[electronics]] [[not-research]]

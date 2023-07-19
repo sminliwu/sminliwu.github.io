@@ -124,4 +124,4 @@ See
 <!-- fill in -->
 
 ## Obsidian Links
-	[[a_fundamentals]] [[electronics]] [[programming]] 
+	[[a_fundamentals]] [[electronics]] [[programming]] [[projects]]

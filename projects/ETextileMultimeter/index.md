@@ -2,6 +2,7 @@
 layout: project
 title: E-Textiles Web Multimeter
 season: Spring 2019
+tags: pgtype-project 
 
 ---
 ## [Visualization Web App](/projects/ETextileMultimeter/main)
@@ -120,3 +121,5 @@ Our proposed design for this e-textile diagnostic tool will add a digital repres
 ## Visualizer and Using Everything
 
 The [visualization app](/projects/ETextileMultimeter/main) is hosted on GitHub, but can also be forked and opened on your own machine without an Internet connection. Open the visualizer, connect the multimeter to your laptop, power your test circuit, and probe away.
+
+[[projects]] [[electronics]] [[programming]] [[smart-textiles]] 

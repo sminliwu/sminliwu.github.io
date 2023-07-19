@@ -121,4 +121,4 @@ The Bluetooth HID profile is, in fact, a wrapper to the USB HID profile. The HID
 
 ## Obsidian Links
 
-[[electronics]] [[illustration]] [[smart-textiles]]
+[[electronics]] [[illustration]] [[smart-textiles]] [[projects]]

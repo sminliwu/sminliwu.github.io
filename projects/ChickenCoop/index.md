@@ -69,3 +69,6 @@ An automation/reminder management system for a backyard chicken/duck coop.
 * Google Apps Script reference: [https://developers.google.com/apps-script](https://developers.google.com/apps-script "https://developers.google.com/apps-script")
 * JavaScript Date object reference: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date")
 * CORS errors in HTTP requests: [https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9](https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9 "https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9")
+
+## Obsidian Links
+[[projects]] [[electronics]] [[programming]] #pgtype-project 
