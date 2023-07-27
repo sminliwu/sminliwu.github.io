@@ -22,7 +22,5 @@ nbproject
 .idea
 script
 *.code-workspace
-github-website.code-workspace
-*.code-workspace
 .obsidian
 obsidian/
