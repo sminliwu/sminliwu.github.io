@@ -1,5 +1,5 @@
 ---
-title: Obsidian.md: My New CMS
+title: 'Obsidian.md: My New CMS'
 author: S
 layout: post
 date: 2023-07-27 15:46
