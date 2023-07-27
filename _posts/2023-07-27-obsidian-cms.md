@@ -6,7 +6,7 @@ date: 2023-07-27 15:46
 tags: writing knowledge-management
 ---
 
-![screenshot of Obsidian's graph view](/assets/Pasted image 20230727155211.png)
+![screenshot of Obsidian's graph view](/assets/Pasted-image-20230727155211.png)
 
 I put on a variety of YouTube videos as background listening when I work -- sometimes fiction/worldbuilding, sometimes technical. In one of my more technical moods, I watched a couple of videos about [Obsidian](https://obsidian.md/) as a note-taking tool, but also more: a knowledge-management system, particularly a technique called "second brain". Buzzwords aside, what won me over was seeing its graph view, which shows each file as a node, and hyperlinks between files as edges.
 
