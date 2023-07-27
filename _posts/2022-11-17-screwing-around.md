@@ -10,4 +10,4 @@ tags: electronics repair
 
 What is so special about the electronics in this popcorn maker that warrants triangular screws?? Just noting for design-for-disassembly purposes.
 
-[[repair]] [[electronics]]
+[electronics](electronics.md) [repair](repair.md)

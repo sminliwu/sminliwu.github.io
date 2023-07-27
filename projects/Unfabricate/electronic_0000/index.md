@@ -9,4 +9,4 @@ title: Unfabricate - Specimen 0000
 
 ![Animated GIF of DS9 cable teardown](./animated.gif)
 
-[[repair]] [[electronics]]
+[repair](repair.md) [electronics](electronics.md)
