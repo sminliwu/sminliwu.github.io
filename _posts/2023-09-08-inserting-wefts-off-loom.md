@@ -6,7 +6,7 @@ date: 2023-09-08 18:48
 tags: weaving
 ---
 
-![](inserting-weft.jpg)
+![](/assets/inserting-weft.jpg)
 
 I took this cloth off my loom literally YEARS ago, and never got to finish it in a way I was happy with. I decided that I wanted the color blocks to be separated by a thin band of white (matching the warp yarn). 
 
