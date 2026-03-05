@@ -24,3 +24,6 @@ script
 *.code-workspace
 .obsidian
 obsidian/
+/.space
+/.makemd
+assets/blog-assets.md
