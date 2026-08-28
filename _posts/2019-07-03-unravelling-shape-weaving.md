@@ -12,8 +12,8 @@ tags: weaving project-Unfabricate
 
 I took apart the shape weaving from [experiment 3]({% post_url 2019-07-02-shape-weaving-3 %}). The warp layout, which uses a continuous weft doubled in loops and secured with the last pick as detailed in these [diagrams]({% post_url 2019-07-02-shape-weaving-diagrams %}).
 
-![Woven rectangle using a double continuous warp](/assets/img/shapeweaving3_1.jpg)
+![Woven rectangle using a double continuous warp](</assets/img/shapeweaving3_1.jpg>)
 
-![Diagram of shape weaving experiment 3](/assets/img/diagram3.png)
+![Diagram of shape weaving experiment 3](</assets/img/diagram3.png>)
 
 Success!

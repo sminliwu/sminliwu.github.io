@@ -6,7 +6,7 @@ date: 2019-09-30 15:04:10
 tags: course-ECEN5783 electronics programming
 ---
 
-![Screenshot of temperature/humidity sensor GUI displayed by Raspberry Pi](/assets/img/thermostat.png)
+![Screenshot of temperature/humidity sensor GUI displayed by Raspberry Pi](</assets/img/thermostat.png>)
 
 ## Installation Sources
 

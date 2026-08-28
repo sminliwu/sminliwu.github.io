@@ -1,7 +1,7 @@
 # Set up
 title: Shanel Wu
 logo: #/assets/img/logo.jpg
-description: "They/them. PhD student: smart textiles, weaving, computational craft, hardware hacking."
+description: "They/them. HCI researcher and creative technologist. E-textiles, wearables, crafting as praxis and technology."
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
@@ -9,12 +9,11 @@ theme: jekyll-theme-minimal
 # Owner/author information
 owner:
   name:           Shanel Wu
-  bio:            "They/them. PhD student: smart textiles, weaving, computational craft, hardware hacking."
-  email:          shanel.wu@colorado.edu
-  twitter:        sminliwu
+  bio:            "They/them. HCI researcher and creative technologist. E-textiles, wearables, crafting as praxis and technology."
+  email:          sminliwu@gmail.com
   github:         sminliwu
   instagram:      pipernell
-  location:       "Boulder, CO"
+  location:       "Ottawa, ON"
 
 # collections:
 
