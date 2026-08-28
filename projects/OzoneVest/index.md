@@ -58,4 +58,4 @@ With the interplay of ancient techniques and contemporary electronics, I see sma
 
 _Thank you to my roommate, [Gabriel Pezoa](https://www.instagram.com/gay.biel/), for photographing me wearing the vest in our backyard!_
 
-[[weaving]] [[projects]] [[smart-textiles]] #pgtype-project 
+[weaving](</tag/weaving.md>) [projects](</obsidian/projects.md>) [smart-textiles](</tag/smart-textiles.md>) #pgtype-project 

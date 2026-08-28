@@ -7,6 +7,6 @@ title: Unfabricate - Specimen 0000
 
 ## &#8594; Specimen 0000: DS9 Serial Cable
 
-![Animated GIF of DS9 cable teardown](./animated.gif)
+![Animated GIF of DS9 cable teardown](</projects/Unfabricate/electronic_0000/animated.gif>)
 
-[repair](repair.md) [electronics](electronics.md)
+[repair](</tag/repair.md>) [electronics](</tag/electronics.md>)

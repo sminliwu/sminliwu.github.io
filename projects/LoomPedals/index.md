@@ -14,19 +14,19 @@ The Loom Pedals are a hardware peripheral interface for the TC2 digital Jacquard
 * [Driver Software](https://github.com/UnstableDesign/Loom-Pedals-Raspberry-Pi)
 * [AdaCAD Extension](https://github.com/UnstableDesign/Loom-Pedals-AdaCAD)
 
-This page currently focuses on describing and documenting the Loom Pedals system as it evolves. We are also working on a [developer's guide](sections/dev-guide.md) to support any interested makers.
+This page currently focuses on describing and documenting the Loom Pedals system as it evolves. We are also working on a [developer's guide](</projects/LoomPedals/sections/dev-guide.md>) to support any interested makers.
 
 ### Table of Contents
 
-[Section A: Project Fundamentals](#section-a-project-fundamentals)
+[Section A: Project Fundamentals](<#section-a-project-fundamentals>)
 
-1. [Weaving, Jacquard looms, and TC2 basics](#weaving-jacquard-looms-and-tc2-basics)
+1. [Weaving, Jacquard looms, and TC2 basics](<#weaving-jacquard-looms-and-tc2-basics>)
 2. Dependencies
 3. Installation and assembly
 4. Prerequisite skills for developers
 5. Open source disclosure (?)
 
-[Section B: System Components](#section-b-system-components)
+[Section B: System Components](<#section-b-system-components>)
 
 1. Overview
 2. Hardware
@@ -65,7 +65,7 @@ Each component of the loom pedals system is in its own repository. These section
 
 ### Overview
 
-![image description TODO](./sysConnections.png)
+![image description TODO](</projects/LoomPedals/sysConnections.png>)
 
 ### Hardware
 
@@ -75,9 +75,9 @@ The loom pedals I describe represent "V2" of the system. V1 was the first time I
 
 The pedals are designed to be modular and interchangeable, linking up in series, with the first pedal directly connected to the Pi.
 
-![image description TODO](./hardware/connect.jpg)
+![image description TODO](</projects/LoomPedals/hardware/connect.jpg>)
 
-![image description TODO](./hardware/pedalCircuitLogic.png)
+![image description TODO](</projects/LoomPedals/hardware/pedalCircuitLogic.png>)
 
 The circuitry in the pedals shown are implemented with off-the-shelf digital logic IC's and hand-soldering to a perfboard, but a PCB is in the works, because it's probably not good for me to inhale all of these fumes.
 
@@ -85,7 +85,7 @@ The circuitry in the pedals shown are implemented with off-the-shelf digital log
 
 The enclosure's CAD files are on GitHub. Many many thanks to Lily Gabriel for modelling and 3D-printing the enclosures much faster than I would have.
 
-![image description TODO](./hardware/pedal-enclosure.jpg)
+![image description TODO](</projects/LoomPedals/hardware/pedal-enclosure.jpg>)
 
 This version of the enclosure is a sort of *minimum viable prototype*, and it would definitely be interesting to try different form factors.
 

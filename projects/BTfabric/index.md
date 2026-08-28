@@ -7,7 +7,7 @@ tags: electronics pgtype-project
 ---
 ## Concept
 
-![drawing of a stuffed animal being pressed like a button and a smartphone connected to it. Text: "I think this is a keyboard!](./documentation/conceptsketch.jpg)
+![drawing of a stuffed animal being pressed like a button and a smartphone connected to it. Text: "I think this is a keyboard!](</projects/BTfabric/documentation/conceptsketch.jpg>)
 
 Concept sketch of a Bluetooth fabric-based controller.
 
@@ -40,13 +40,13 @@ My goal was to learn as much as I could about the Bluetooth connectivity standar
 
 ### Block Diagram
 
-![block diagram](./documentation/blockdiagram.jpg)
+![block diagram](</projects/BTfabric/documentation/blockdiagram.jpg>)
 
 Block diagram showing the flow of input/output data between the system's major components. The device that connects to the Bluetooth module is the host.
 
 ### Circuit Diagram
 
-![circuit schematic](./documentation/circuitschematic.jpg)
+![circuit schematic](</projects/BTfabric/documentation/circuitschematic.jpg>)
 
 Circuit incorporating the button, Arduino, Bluetooth module, and an indicator LED. A 10KOhm resistor is connected between the button pin (7) and GND. A 100 Ohm current-limiting resistor is connected in series with the LED on pin 5.
 
@@ -80,13 +80,13 @@ These instructions are specific to the RN-42 module, so another breakout board m
 
 Weaving makes a fabric by interlacing two perpendicular sets of yarn, the warp (conventionally vertical) and the weft (horizontal). The warp is first set up on the loom ("warping" the loom) and held under tension. Then, the weft is passed across the warp yarns, going over and under periodically, to interlace and form the fabric structure. One particular woven structure, doubleweave, actually forms two separate layers during the weaving. Using this structure in a specific area can create a pocket in that area, as shown in the drawing below.
 
-![Drawing of the button's base structure, which shows a two-layered structure in the middle surrounded by a ground plane.](./documentation/button_structure.png)
+![Drawing of the button's base structure, which shows a two-layered structure in the middle surrounded by a ground plane.](</projects/BTfabric/documentation/button_structure.png>)
 
 Drawing of the base structure of the woven button. The button itself is made of a two-layered woven structure, bound together by the ground plane of the surrounding fabric.
 
 During the weaving process, we can add in a "supplemental" yarn that follows the base yarn to "supplement" the structure in selected portions. This yarn can be in either direction, making supplemental warp or supplemental weft. The supplemental yarn does not have to be as sturdy as the base yarn in the rest of the fabric, giving us a way to easily use fragile conductive yarn.  On this button, I used stainless steel conductive yarn as supplemental warp to cover the top face of the button and form one terminal. Supplemental weft using the same yarn formed the bottom face of the button, the other terminal. I stuffed the pocket with scraps of yarn to separate the terminals.
 
-![Drawing of the electrical components of the button. One side of the button goes along one axis, and the other along the orthogonal.](./documentation/button_conductive.png)
+![Drawing of the electrical components of the button. One side of the button goes along one axis, and the other along the orthogonal.](</projects/BTfabric/documentation/button_conductive.png>)
 
 Drawing of the button showing the location of supplemental warp (pink) and supplemental weft (blue).
 
@@ -121,4 +121,4 @@ The Bluetooth HID profile is, in fact, a wrapper to the USB HID profile. The HID
 
 ## Obsidian Links
 
-[[electronics]] [[illustration]] [[smart-textiles]] [[projects]]
+[electronics](</tag/electronics.md>) [illustration](</tag/illustration.md>) [smart-textiles](</tag/smart-textiles.md>) [projects](</obsidian/projects.md>)

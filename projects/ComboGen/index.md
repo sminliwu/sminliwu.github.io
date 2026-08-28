@@ -4,7 +4,7 @@ title: Random Combination Generator
 season: Spring 2022
 
 ---
-![Screenshot of the student's typical view when using the web app.](./combo-screen.png)
+![Screenshot of the student's typical view when using the web app.](</projects/ComboGen/combo-screen.png>)
 
 ## Summary
 
@@ -86,17 +86,17 @@ Here's a more thorough walkthrough of the web app's interface as a student would
 
 Because we had the class divided into two sections that would attend class on different days (and thus, two different datasets of terms and definitions), the student first selects their course section on the welcome prompt.
 
-![Initial view of the combo generator tool. Prompt reads: "Which day are you attending class?" and the two options are Tuesday and Thursday.](./welcome.png)
+![Initial view of the combo generator tool. Prompt reads: "Which day are you attending class?" and the two options are Tuesday and Thursday.](</projects/ComboGen/welcome.png>)
 
 Then, they are taken to the main interface, which would show a random combination of two terms from different weekly topics. The terms are shown as "cards" with the term on the top line, its definition in the center, and the week in the lower-left corner (which also lets us verify that the combinations are being properly generated).
 
-![Same image as the first cover image. The student's typical view when using the web app, showing two terms with their definitions and a text input area for the student's connecting explanation.](./combo-screen.png)
+![Same image as the first cover image. The student's typical view when using the web app, showing two terms with their definitions and a text input area for the student's connecting explanation.](</projects/ComboGen/combo-screen.png>)
 
 Below the cards, the student would type their explanation for the connection between the two terms in the given text input area. Above the term cards, the student can change the displayed combo by clicking the "next" or "previous" button. Generally, the "next" button will show the student a new combo with two different terms. If the student has already seen multiple combos, the "previous" button will let them scroll back through previous combos, all the way until the first one. If they are viewing a previous combo, the "next" button will let them scroll forward within their history until they reach the most-recently generated combo, after which the "next" button will resume showing them new combos. If the student leaves the connection text blank, and goes to view a different combo, the one they were previously viewing will register as "skipped".
 
 As the student progresses through more combinations, they can view the entire log of their session by clicking "View History" below the text input area. This will open an alternate view of the concepts and connections, displaying them in a table rather than one at a time.
 
-![View of the lower half of the web app, below the "Connection" entry field, after the user has clicked the "Show History" button. The user's history of random combinations is displayed in a table below the button, while the button has changed to "Hide History".](./history.png)
+![View of the lower half of the web app, below the "Connection" entry field, after the user has clicked the "Show History" button. The user's history of random combinations is displayed in a table below the button, while the button has changed to "Hide History".](</projects/ComboGen/history.png>)
 
 The combination that is currently displayed above is highlighted in blue. A combination highlighted in yellow indicates that the student had skipped it.
 
@@ -193,4 +193,4 @@ NEW interfaces for general usage:
 
 ## Obsidian Links
 
-[[programming]]
+[programming](</tag/programming.md>)

@@ -5,9 +5,9 @@ season: Spring 2019
 tags: pgtype-project 
 
 ---
-## [Visualization Web App](/projects/ETextileMultimeter/main)
+## [Visualization Web App](</projects/ETextileMultimeter/main.md>)
 
-![The e-textile multimeter and visualizer in use](./documentation/cover.jpg)
+![The e-textile multimeter and visualizer in use](</projects/ETextileMultimeter/documentation/cover.jpg>)
 
 ## Concept
 
@@ -120,6 +120,6 @@ Our proposed design for this e-textile diagnostic tool will add a digital repres
 
 ## Visualizer and Using Everything
 
-The [visualization app](/projects/ETextileMultimeter/main) is hosted on GitHub, but can also be forked and opened on your own machine without an Internet connection. Open the visualizer, connect the multimeter to your laptop, power your test circuit, and probe away.
+The [visualization app](</projects/ETextileMultimeter/main.md>) is hosted on GitHub, but can also be forked and opened on your own machine without an Internet connection. Open the visualizer, connect the multimeter to your laptop, power your test circuit, and probe away.
 
-[[projects]] [[electronics]] [[programming]] [[smart-textiles]] 
+[projects](</obsidian/projects.md>) [electronics](</tag/electronics.md>) [programming](</tag/programming.md>) [smart-textiles](</tag/smart-textiles.md>) 

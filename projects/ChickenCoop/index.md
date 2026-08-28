@@ -71,4 +71,4 @@ An automation/reminder management system for a backyard chicken/duck coop.
 * CORS errors in HTTP requests: [https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9](https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9 "https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9")
 
 ## Obsidian Links
-[[projects]] [[electronics]] [[programming]] #pgtype-project 
+[projects](</obsidian/projects.md>) [electronics](</tag/electronics.md>) [programming](</tag/programming.md>) #pgtype-project 

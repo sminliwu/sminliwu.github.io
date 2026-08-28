@@ -3,7 +3,7 @@ layout: project
 title: Flowing Curves Overshot Generator
 season: Spring / Summer 2020
 ---
-![](/assets/img/overshot-gen.png)
+![](</assets/img/overshot-gen.png>)
 
 Spring / Summer 2020
 
@@ -21,5 +21,5 @@ This project started as just a quick tool I hacked to help me design the Ozone S
 * The [Processing](https://processing.org/) Foundation and [p5.js](https://p5js.org/)
 
 ## Obsidian Links
-[[programming]] [[weaving]] [[projects]]
+[programming](</tag/programming.md>) [weaving](</tag/weaving.md>) [projects](</obsidian/projects.md>)
 #pgtype-project 
